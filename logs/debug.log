@@ -110,3 +110,11 @@ Error: Cannot find module './utils/seeder.js'
 2018-11-13T05:01:05.689Z - info: START seeder.
 2018-11-13T05:01:05.696Z - debug: 6 products seeded
 2018-11-13T05:01:05.700Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:21:30.286Z - info: Environment variables loaded.
+2018-11-13T05:21:30.322Z - info: START seeder.
+2018-11-13T05:21:30.327Z - debug: 6 products seeded
+2018-11-13T05:21:30.327Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:22:49.525Z - info: Environment variables loaded.
+2018-11-13T05:22:49.568Z - info: START seeder.
+2018-11-13T05:22:49.573Z - debug: 6 products seeded
+2018-11-13T05:22:49.575Z - info: END Seeder. Sample data read and verified.
