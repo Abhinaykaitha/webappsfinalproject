@@ -1,0 +1,112 @@
+2018-11-13T04:44:21.798Z - info: Environment variables loaded.
+2018-11-13T04:44:21.834Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:44:21 GMT-0600 (Central Standard Time), pid=32952, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=70017024, heapTotal=61255680, heapUsed=38822256, external=19660218, loadavg=[0, 0, 0], uptime=38661.3204014
+Error: Cannot find module './utils/seeder.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:44:25.351Z - info: Environment variables loaded.
+2018-11-13T04:44:25.379Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:44:25 GMT-0600 (Central Standard Time), pid=33724, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=73048064, heapTotal=62304256, heapUsed=30566064, external=18389982, loadavg=[0, 0, 0], uptime=38664.8670781
+Error: Cannot find module './utils/seeder.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:44:43.312Z - info: Environment variables loaded.
+2018-11-13T04:44:43.339Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:44:43 GMT-0600 (Central Standard Time), pid=33668, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=73023488, heapTotal=62828544, heapUsed=30548528, external=18389982, loadavg=[0, 0, 0], uptime=38682.8273404
+Error: Cannot find module './utils/seeder.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:52:34.586Z - info: Environment variables loaded.
+2018-11-13T04:52:34.615Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:52:34 GMT-0600 (Central Standard Time), pid=32924, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=71540736, heapTotal=60731392, heapUsed=40688336, external=19852157, loadavg=[0, 0, 0], uptime=39154.1020333
+Error: Cannot find module './utils/seeder.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:53:55.494Z - info: Environment variables loaded.
+2018-11-13T04:53:55.539Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:53:55 GMT-0600 (Central Standard Time), pid=33632, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=68128768, heapTotal=62304256, heapUsed=37037544, external=19322656, loadavg=[0, 0, 0], uptime=39235.0217736
+Error: Cannot find module './utils/seeder.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:54:59.458Z - info: Environment variables loaded.
+2018-11-13T04:54:59.500Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:54:59 GMT-0600 (Central Standard Time), pid=30208, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=70483968, heapTotal=60731392, heapUsed=39367504, external=19674136, loadavg=[0, 0, 0], uptime=39298.9854036
+Error: Cannot find module './utils/seeder.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:58:13.863Z - info: Environment variables loaded.
+2018-11-13T04:58:13.925Z - info: START seeder.
+2018-11-13T04:58:13.932Z - debug: 5 products seeded
+2018-11-13T04:58:13.932Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:58:31.502Z - info: Environment variables loaded.
+2018-11-13T04:58:31.536Z - info: START seeder.
+2018-11-13T04:58:31.540Z - debug: 5 products seeded
+2018-11-13T04:58:31.540Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:59:58.834Z - info: Environment variables loaded.
+2018-11-13T04:59:58.887Z - info: START seeder.
+2018-11-13T04:59:58.895Z - debug: 6 products seeded
+2018-11-13T04:59:58.897Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:01:05.602Z - info: Environment variables loaded.
+2018-11-13T05:01:05.689Z - info: START seeder.
+2018-11-13T05:01:05.696Z - debug: 6 products seeded
+2018-11-13T05:01:05.700Z - info: END Seeder. Sample data read and verified.

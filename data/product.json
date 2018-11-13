@@ -1,0 +1,45 @@
+[
+    {
+        "_id": 1,
+        "productName": "Dell Laptop",
+        "description": "Best Dell Laptop Ever!",
+        "unitPrice": 1099,
+        "productType":"Laptop",
+        "version": "Core i5 Processor"
+    },
+    {
+        "_id": 2,
+        "productName": "Pant",
+        "description": "Even better Pant",
+        "productType":"Clothing",
+        "unitPrice": 20
+    },
+    {
+        "_id": 3,
+        "productName": "Iphone",
+        "description": "Best Phone ever!",
+        "productType":"phone",
+        "unitPrice": 1000
+    },
+    {
+        "_id": 4,
+        "productName": "T-shirt",
+        "description": "Best t-shirt ever!",
+        "productType":"Clothing",
+        "unitPrice": 12
+    },
+    {
+        "_id": 5,
+        "productName": "Bag",
+        "description": "Best Bag ever!",
+        "productType":"Clothing",
+        "unitPrice": 16
+    },
+    {
+        "_id": 6,
+        "productName": "Shoe",
+        "description": "Best Shoe ever!",
+        "productType":"Clothing",
+        "unitPrice": 100
+    }
+]
