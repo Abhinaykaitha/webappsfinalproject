@@ -1,6 +1,7 @@
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
 const products = require('../data/product.json')
+const customers = require('../data/customer.json')
 
 module.exports = (app) => {
   LOG.info('START seeder.')
@@ -27,5 +28,11 @@ module.exports = (app) => {
   //app.locals.orders = db.orders.find(orders)
   //LOG.debug(`${app.locals.orders.query.length} orders seeded`)
   
+  LOG.info('END Seeder. Sample data read and verified.')
+  db.customers= new Datastore()
+  db.customers.loadDatabase()
+  db.customers.insert(customers)
+  app.locals.customers = db.customers.find(customers)
+  LOG.debug(`${app.locals.customers.query.length} customers seeded`)
   LOG.info('END Seeder. Sample data read and verified.')
 }

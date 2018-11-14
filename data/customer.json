@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "customerFirstName": "Abhinay",
+        "customerMiddleName": "Reddy",
+        "customerLastName": "Kaitha",
+        "customerAge": 21,
+        "phoneNumber": 8888888888,
+        "street": "1121N College Dr Horizons West",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA"
+       
+    },
+    {
+        "_id": 2,
+        "customerFirstName": "Rahul",
+        "customerMiddleName": "Reddy",
+        "customerLastName": "Dayam",
+        "customerAge": 23,
+        "phoneNumber": 7777777777,
+        "street": "1121N College Dr Horizons West",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA"
+       
+    },
+    {
+        "_id": 3,
+        "customerFirstName": "Tarun",
+        "customerLastName": "Pondugula",
+        "customerAge": 24,
+        "phoneNumber": 6666666666,
+        "street": "1121N College Dr ",
+        "city": "Charlotte",
+        "state":"NC",
+        "country": "USA"
+       
+    },
+    
+    {
+        "_id": 4,
+        "customerFirstName": "Prakash",
+        "customerMiddleName": "Reddy",
+        "customerLastName": "Mamidi",
+        "customerAge": 22,
+        "phoneNumber": 5555555555,
+        "street": "121N College Dr",
+        "city": "kansas",
+        "state": "KS",
+        "country": "USA"
+       
+    }
+
+
+]

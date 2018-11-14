@@ -118,3 +118,139 @@ Error: Cannot find module './utils/seeder.js'
 2018-11-13T05:22:49.568Z - info: START seeder.
 2018-11-13T05:22:49.573Z - debug: 6 products seeded
 2018-11-13T05:22:49.575Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:42:06.356Z - info: Environment variables loaded.
+2018-11-14T00:42:06.423Z - error: uncaughtException: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359 date=Tue Nov 13 2018 18:42:06 GMT-0600 (Central Standard Time), pid=27708, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=72003584, heapTotal=60805120, heapUsed=40378496, external=19898771, loadavg=[0, 0, 0], uptime=1158397.9015221
+SyntaxError: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-14T00:43:05.088Z - info: Environment variables loaded.
+2018-11-14T00:43:05.148Z - error: uncaughtException: Cannot find module '../data/customer.json' date=Tue Nov 13 2018 18:43:05 GMT-0600 (Central Standard Time), pid=82132, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=70631424, heapTotal=61853696, heapUsed=39494520, external=19816853, loadavg=[0, 0, 0], uptime=1158456.6277544
+Error: Cannot find module '../data/customer.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-14T00:44:27.069Z - info: Environment variables loaded.
+2018-11-14T00:44:27.127Z - error: uncaughtException: Cannot find module '../data/customer.json' date=Tue Nov 13 2018 18:44:27 GMT-0600 (Central Standard Time), pid=70432, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=70471680, heapTotal=61853696, heapUsed=39213192, external=19690259, loadavg=[0, 0, 0], uptime=1158538.6071332
+Error: Cannot find module '../data/customer.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-14T00:45:03.782Z - info: Environment variables loaded.
+2018-11-14T00:45:03.838Z - error: uncaughtException: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359 date=Tue Nov 13 2018 18:45:03 GMT-0600 (Central Standard Time), pid=93720, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=70111232, heapTotal=61853696, heapUsed=38873440, external=19698451, loadavg=[0, 0, 0], uptime=1158575.3176272
+SyntaxError: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-14T00:46:16.493Z - error: uncaughtException: Cannot read property 'loadDatabase' of undefined date=Tue Nov 13 2018 18:46:16 GMT-0600 (Central Standard Time), pid=19980, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=71049216, heapTotal=61853696, heapUsed=39900584, external=19842685, loadavg=[0, 0, 0], uptime=1158647.9728157
+TypeError: Cannot read property 'loadDatabase' of undefined
+    at module.exports (C:\Users\S534051\Desktop\4-2\utils\seeder.js:33:16)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-14T00:46:16.423Z - info: Environment variables loaded.
+2018-11-14T00:46:16.464Z - info: START seeder.
+2018-11-14T00:46:16.468Z - debug: 6 products seeded
+2018-11-14T00:46:16.468Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:47:03.068Z - info: Environment variables loaded.
+2018-11-14T00:47:03.138Z - error: uncaughtException: Cannot read property 'loadDatabase' of undefined date=Tue Nov 13 2018 18:47:03 GMT-0600 (Central Standard Time), pid=17068, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=69844992, heapTotal=61853696, heapUsed=39362216, external=19724283, loadavg=[0, 0, 0], uptime=1158694.6183503
+TypeError: Cannot read property 'loadDatabase' of undefined
+    at module.exports (C:\Users\S534051\Desktop\4-2\utils\seeder.js:33:16)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-14T00:47:03.110Z - info: START seeder.
+2018-11-14T00:47:03.113Z - debug: 6 products seeded
+2018-11-14T00:47:03.114Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:50:03.949Z - info: Environment variables loaded.
+2018-11-14T00:50:03.983Z - info: START seeder.
+2018-11-14T00:50:03.987Z - debug: 6 products seeded
+2018-11-14T00:50:03.988Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:50:03.991Z - debug: 4 customers seeded
+2018-11-14T00:50:03.991Z - info: END Seeder. Sample data read and verified.
