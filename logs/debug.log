@@ -254,3 +254,11 @@ TypeError: Cannot read property 'loadDatabase' of undefined
 2018-11-14T00:50:03.988Z - info: END Seeder. Sample data read and verified.
 2018-11-14T00:50:03.991Z - debug: 4 customers seeded
 2018-11-14T00:50:03.991Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:30:37.770Z - info: Environment variables loaded.
+2018-11-14T02:30:37.806Z - info: START seeder.
+2018-11-14T02:30:37.809Z - debug: 6 products seeded
+2018-11-14T02:30:37.810Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:30:37.811Z - debug: 4 orderline seeded
+2018-11-14T02:30:37.811Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:30:37.813Z - debug: 4 customers seeded
+2018-11-14T02:30:37.813Z - info: END Seeder. Sample data read and verified.
