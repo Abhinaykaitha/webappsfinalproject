@@ -1,0 +1,114 @@
+
+/**
+ * Product Controller
+ * @Author: Dristi Marasini
+ */
+const express = require('express')
+const api = express.Router()
+const Model = require('../models/product.js')
+const LOG = require('../utils/logger.js')
+const find = require('lodash.find')
+const remove = require('lodash.remove')
+const notfoundstring = 'products'
+//findall
+api.get('/findall', (req, res) => {
+	res.setHeader('Content-Type', 'application/json')
+	const data = req.app.locals.products.query
+	res.send(JSON.stringify(data))
+  })
+  // GET one JSON by ID
+api.get('/findone/:id', (req, res) => {
+	res.setHeader('Content-Type', 'application/json')
+	const id = parseInt(req.params.id, 10) // base 10
+	const data = req.app.locals.products.query
+	const item = find(data, { _id: id })
+	if (!item) { return res.end(notfoundstring) }
+	res.send(JSON.stringify(item))
+  })
+//Get Index
+api.get('/', (req, res) => {
+	res.render('products/index.ejs');
+})
+//Get Create
+api.get('/create', (req, res) => {
+	// TODO
+	res.render('products/create.ejs');
+})
+//Get Delete
+api.get('/delete/:id', (req, res) => {
+	// TODO
+	res.render('products/delete.ejs');
+})
+
+//Get Edit
+api.get('/edit/:id', (req, res) => {
+	// TODO
+	res.render('products/edit.ejs');
+})
+// Get Details
+api.get('/details/:id', (req, res) => {
+	// TODO
+	res.render('products/details.ejs');
+})
+// POST new
+api.post('/save', (req, res) => {
+	LOG.info(`Handling POST ${req}`)
+	LOG.debug(JSON.stringify(req.body))
+	const data = req.app.locals.products.query
+	const item = new Model()
+	LOG.info(`NEW ID ${req.body._id}`)
+	item._id = parseInt(req.body._id, 10) // base 10
+	item.productName = req.body.productName
+	item.description = req.body.description
+	item.unitPrice = parseInt(req.body.unitPrice, 10)
+	item.productType = req.body.productType
+	item.version = req.body.version
+  
+	  data.push(item)
+	  LOG.info(`SAVING NEW product ${JSON.stringify(item)}`)
+	  return res.redirect('/product')
+	}
+  )
+
+  
+// POST update
+api.post('/save/:id', (req, res) => {
+	LOG.info(`Handling SAVE request ${req}`)
+	const id = parseInt(req.params.id, 10) // base 10
+	LOG.info(`Handling SAVING ID=${id}`)
+	const data = req.app.locals.products.query
+	const item = find(data, { _id: id })
+	if (!item) { return res.end(notfoundstring) }
+	LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
+	LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
+	item.productName = req.body.productName
+	item.description = req.body.description
+	item.unitPrice = parseInt(req.body.unitPrice, 10)
+	item.productType = req.body.productType
+	item.version = req.body.version
+	LOG.info(`SAVING UPDATED product ${JSON.stringify(item)}`)
+	return res.redirect('/product')
+	
+  })
+// DELETE id (uses HTML5 form method POST)
+api.post('/delete/:id', (req, res) => {
+	LOG.info(`Handling DELETE request ${req}`)
+	const id = parseInt(req.params.id, 10) // base 10
+	LOG.info(`Handling REMOVING ID=${id}`)
+	const data = req.app.locals.products.query
+	const item = find(data, { _id: id })
+	if (!item) {
+	  return res.end(notfoundstring)
+	}
+	if (item.isActive) {
+	  item.isActive = false
+	  console.log(`Deacctivated item ${JSON.stringify(item)}`)
+	} else {
+	  const item = remove(data, { _id: id })
+	  console.log(`Permanently deleted item ${JSON.stringify(item)}`)
+	}
+	return res.redirect('/product')
+  })
+
+
+module.exports = api
