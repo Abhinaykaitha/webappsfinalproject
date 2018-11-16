@@ -321,3 +321,45 @@ Error: Cannot find module '../data/order.json'
 2018-11-16T00:32:27.625Z - info: END Seeder. Sample data read and verified.
 2018-11-16T00:32:27.628Z - debug: 4 customers seeded
 2018-11-16T00:32:27.628Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:02:22.945Z - info: Environment variables loaded.
+2018-11-16T01:02:23.034Z - error: uncaughtException: listen EADDRINUSE :::8081 date=Thu Nov 15 2018 19:02:23 GMT-0600 (Central Standard Time), pid=21800, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=72589312, heapTotal=61853696, heapUsed=40923712, external=19934051, loadavg=[0, 0, 0], uptime=1332414.5046635
+Error: listen EADDRINUSE :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (C:\Users\S534051\Desktop\4-2\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:57:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T01:02:22.982Z - info: START seeder.
+2018-11-16T01:02:22.987Z - debug: 6 products seeded
+2018-11-16T01:02:22.989Z - debug: 5 orders seeded
+2018-11-16T01:02:22.989Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:02:22.992Z - debug: 4 orderline seeded
+2018-11-16T01:02:22.992Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:02:22.995Z - debug: 4 customers seeded
+2018-11-16T01:02:22.995Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:02:59.195Z - info: Environment variables loaded.
+2018-11-16T01:02:59.232Z - info: START seeder.
+2018-11-16T01:02:59.235Z - debug: 6 products seeded
+2018-11-16T01:02:59.236Z - debug: 5 orders seeded
+2018-11-16T01:02:59.236Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:02:59.239Z - debug: 4 orderline seeded
+2018-11-16T01:02:59.239Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:02:59.240Z - debug: 4 customers seeded
+2018-11-16T01:02:59.241Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:04:09.863Z - info: Environment variables loaded.
+2018-11-16T01:04:09.901Z - info: START seeder.
+2018-11-16T01:04:09.905Z - debug: 6 products seeded
+2018-11-16T01:04:09.907Z - debug: 5 orders seeded
+2018-11-16T01:04:09.907Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:04:09.909Z - debug: 4 orderline seeded
+2018-11-16T01:04:09.909Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:04:09.911Z - debug: 4 customers seeded
+2018-11-16T01:04:09.912Z - info: END Seeder. Sample data read and verified.
