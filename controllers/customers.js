@@ -18,12 +18,12 @@ api.get('/delete/:id', (req, res) => {
 	res.render('customers/delete.ejs');
 })
 
-api.get('/update/:id', (req, res) => {
-		res.render('customers/update.ejs');
+api.get('/edit/:id', (req, res) => {
+		res.render('customers/edit.ejs');
 })
 
-api.get('/read/:id', (req, res) => {
-	res.render('customers/read.ejs');
+api.get('/details/:id', (req, res) => {
+	res.render('customers/details.ejs');
 })
 
 
