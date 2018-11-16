@@ -1,4 +1,6 @@
-//HARISH REDDY VAVILALA
+/**
+ * @author: Harish Reddy Vavilala
+ */
 const mongoose = require('mongoose')
 const orderLineSchema = new mongoose.Schema({
   _id: { type: Number, required: true },

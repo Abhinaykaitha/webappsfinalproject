@@ -36,5 +36,8 @@ router.get("/", function (req, res) {
 // Defer path requests to a Product controller
 router.use('/product', require('../controllers/product.js'))
 
+// Defer path requests to a order line controller
+router.use('/product', require('../controllers/orderline.js'))
+
 LOG.debug('Routing end.');
 module.exports = router
