@@ -1,0 +1,37 @@
+[
+    {
+      "_id": 100,
+      "orderDate":"24/10/1996",
+      "paymentType":"cash",
+      "_customerid": 1,
+      "totalAmount": 600
+    },
+    {
+        "_id": 101,
+        "orderDate":"24/10/1996",
+        "paymentType":"check",
+        "_customerid": 2,
+        "totalAmount": 100
+      },
+      {
+        "_id": 102,
+        "orderDate":"24/10/1996",
+        "paymentType":"credit card",
+        "_customerid": 3,
+        "totalAmount": 400
+      },
+      {
+          "_id": 103,
+        "orderDate":"24/10/1996",
+        "paymentType":"cash",
+        "_customerid": 4,
+        "totalAmount": 300
+      },
+      {
+        "_id": 104,
+      "orderDate":"24/10/1996",
+      "paymentType":"check",
+      "_customerid": 5,
+      "totalAmount": 700
+    }
+]
