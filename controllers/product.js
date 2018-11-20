@@ -1,7 +1,7 @@
 
 /**
  * Product Controller
- * @Author: Dristi Marasini
+ * @author: Dristi Marasini
  */
 const express = require('express')
 const api = express.Router()
@@ -10,6 +10,11 @@ const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
 const notfoundstring = 'products'
+
+// GET to The default page index.ejs
+api.get('/', (req, res) => {
+  res.render('product/index.ejs')
+})
 //findall
 api.get('/findall', (req, res) => {
 	res.setHeader('Content-Type', 'application/json')
@@ -25,30 +30,68 @@ api.get('/findone/:id', (req, res) => {
 	if (!item) { return res.end(notfoundstring) }
 	res.send(JSON.stringify(item))
   })
-//Get Index
-api.get('/', (req, res) => {
-	res.render('products/index.ejs');
-})
+
 //Get Create
 api.get('/create', (req, res) => {
 	// TODO
-	res.render('products/create.ejs');
+	LOG.info(`Handling GET /create${req}`)
+  const item = new Model()
+  LOG.debug(JSON.stringify(item))
+  res.render('product/create',
+    {
+      title: 'Create product',
+      layout: 'layout.ejs',
+      product: item
+    })
 })
 //Get Delete
 api.get('/delete/:id', (req, res) => {
 	// TODO
-	res.render('products/delete.ejs');
+	LOG.info(`Handling GET /delete/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.products.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
+  return res.render('product/delete.ejs',
+    {
+      title: 'Delete product',
+      layout: 'layout.ejs',
+      product: item
+    })
 })
 
 //Get Edit
 api.get('/edit/:id', (req, res) => {
 	// TODO
-	res.render('products/edit.ejs');
+	LOG.info(`Handling GET /edit/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.products.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
+  return res.render('product/edit.ejs',
+    {
+      title: 'product',
+      layout: 'layout.ejs',
+      product: item
+    })
 })
 // Get Details
 api.get('/details/:id', (req, res) => {
 	// TODO
-	res.render('products/details.ejs');
+	LOG.info(`Handling GET /details/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.products.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
+  return res.render('product/details.ejs',
+    {
+      title: 'product Details',
+      layout: 'layout.ejs',
+      product: item
+    })
 })
 // POST new
 api.post('/save', (req, res) => {

@@ -1,44 +1,192 @@
-2018-11-16T01:19:54.927Z - info: Environment variables loaded.
-2018-11-16T01:19:54.933Z - debug: Routing Started
-2018-11-16T01:19:54.960Z - debug: Routing end.
-2018-11-16T01:19:54.995Z - info: START seeder.
-2018-11-16T01:19:54.998Z - debug: 6 products seeded
-2018-11-16T01:19:55.003Z - debug: 5 orders seeded
-2018-11-16T01:19:55.003Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:19:55.007Z - debug: 4 orderline seeded
-2018-11-16T01:19:55.007Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:19:55.012Z - debug: 4 customers seeded
-2018-11-16T01:19:55.012Z - info: END Seeder. Sample data read and verified.
-2018-11-20T07:43:12.648Z - info: Environment variables loaded.
-2018-11-20T07:43:12.664Z - debug: Routing Started
-2018-11-20T07:43:12.745Z - debug: Routing end.
-2018-11-20T07:43:12.822Z - info: START seeder.
-2018-11-20T07:43:12.828Z - debug: 6 products seeded
-2018-11-20T07:43:12.832Z - debug: 5 orders seeded
-2018-11-20T07:43:12.832Z - info: END Seeder. Sample data read and verified.
-2018-11-20T07:43:12.835Z - debug: 4 orderline seeded
-2018-11-20T07:43:12.835Z - info: END Seeder. Sample data read and verified.
-2018-11-20T07:43:12.841Z - debug: 4 customers seeded
-2018-11-20T07:43:12.841Z - info: END Seeder. Sample data read and verified.
-2018-11-20T07:43:55.634Z - info: Environment variables loaded.
-2018-11-20T07:43:55.647Z - debug: Routing Started
-2018-11-20T07:43:55.726Z - debug: Routing end.
-2018-11-20T07:43:55.825Z - info: START seeder.
-2018-11-20T07:43:55.835Z - debug: 6 products seeded
-2018-11-20T07:43:55.840Z - debug: 5 orders seeded
-2018-11-20T07:43:55.840Z - info: END Seeder. Sample data read and verified.
-2018-11-20T07:43:55.845Z - debug: 4 orderline seeded
-2018-11-20T07:43:55.847Z - info: END Seeder. Sample data read and verified.
-2018-11-20T07:43:55.853Z - debug: 4 customers seeded
-2018-11-20T07:43:55.853Z - info: END Seeder. Sample data read and verified.
-2018-11-20T08:54:09.115Z - info: Environment variables loaded.
-2018-11-20T08:54:09.139Z - debug: Routing Started
-2018-11-20T08:54:09.207Z - debug: Routing end.
-2018-11-20T08:54:09.264Z - info: START seeder.
-2018-11-20T08:54:09.269Z - debug: 6 products seeded
-2018-11-20T08:54:09.274Z - debug: 5 orders seeded
-2018-11-20T08:54:09.274Z - info: END Seeder. Sample data read and verified.
-2018-11-20T08:54:09.281Z - debug: 4 orderline seeded
-2018-11-20T08:54:09.281Z - info: END Seeder. Sample data read and verified.
-2018-11-20T08:54:09.286Z - debug: 4 customers seeded
-2018-11-20T08:54:09.287Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:28:01.822Z - info: Environment variables loaded.
+2018-11-20T23:28:01.847Z - debug: Routing Started
+2018-11-20T23:28:01.893Z - debug: Routing end.
+2018-11-20T23:28:01.893Z - info: Loaded routing.
+2018-11-20T23:28:01.941Z - info: START seeder.
+2018-11-20T23:28:01.951Z - debug: 6 products seeded
+2018-11-20T23:28:01.954Z - debug: 5 orders seeded
+2018-11-20T23:28:01.954Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:28:01.957Z - debug: 4 orderline seeded
+2018-11-20T23:28:01.957Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:28:01.961Z - debug: 4 customers seeded
+2018-11-20T23:28:01.962Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:28:06.076Z - debug: GET /product
+2018-11-20T23:28:09.441Z - debug: GET /
+2018-11-20T23:28:09.444Z - debug: Request to /
+2018-11-20T23:28:10.277Z - debug: GET /css/main.css
+2018-11-20T23:28:12.322Z - debug: GET /product
+2018-11-20T23:30:55.961Z - debug: GET /product
+2018-11-20T23:30:56.004Z - debug: GET /css/main.css
+2018-11-20T23:31:18.334Z - debug: GET /product
+2018-11-20T23:31:18.383Z - debug: GET /css/main.css
+2018-11-20T23:32:05.752Z - debug: GET /product/create
+2018-11-20T23:32:05.756Z - info: Handling GET /create[object Object]
+2018-11-20T23:32:05.764Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:32:57.971Z - debug: GET /product/create
+2018-11-20T23:32:57.979Z - info: Handling GET /create[object Object]
+2018-11-20T23:32:57.983Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:33:39.599Z - debug: GET /product/create
+2018-11-20T23:33:39.602Z - info: Handling GET /create[object Object]
+2018-11-20T23:33:39.603Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:33:41.976Z - debug: GET /product/create
+2018-11-20T23:33:41.979Z - info: Handling GET /create[object Object]
+2018-11-20T23:33:41.981Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:33:43.718Z - debug: GET /product/create
+2018-11-20T23:33:43.720Z - info: Handling GET /create[object Object]
+2018-11-20T23:33:43.721Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:34:32.753Z - debug: GET /product/create
+2018-11-20T23:34:32.755Z - info: Handling GET /create[object Object]
+2018-11-20T23:34:32.758Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:34:33.768Z - debug: GET /product/create
+2018-11-20T23:34:33.770Z - info: Handling GET /create[object Object]
+2018-11-20T23:34:33.771Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:34:34.626Z - debug: GET /product/create
+2018-11-20T23:34:34.629Z - info: Handling GET /create[object Object]
+2018-11-20T23:34:34.630Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:35:28.395Z - debug: GET /product/create
+2018-11-20T23:35:28.397Z - info: Handling GET /create[object Object]
+2018-11-20T23:35:28.400Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:35:28.456Z - debug: GET /css/main.css
+2018-11-20T23:35:35.616Z - debug: GET /product/edit/6
+2018-11-20T23:35:35.619Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:35:35.622Z - info: RETURNING VIEW FOR{"_id":6,"productName":"Shoe","description":"Best Shoe ever!","productType":"Clothing","unitPrice":100}
+2018-11-20T23:35:53.942Z - debug: GET /product/edit/6
+2018-11-20T23:35:53.945Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:35:53.946Z - info: RETURNING VIEW FOR{"_id":6,"productName":"Shoe","description":"Best Shoe ever!","productType":"Clothing","unitPrice":100}
+2018-11-20T23:35:53.987Z - debug: GET /css/main.css
+2018-11-20T23:36:00.122Z - debug: GET /product/details/6
+2018-11-20T23:36:00.125Z - info: Handling GET /details/:id [object Object]
+2018-11-20T23:36:00.128Z - info: RETURNING VIEW FOR {"_id":6,"productName":"Shoe","description":"Best Shoe ever!","productType":"Clothing","unitPrice":100}
+2018-11-20T23:36:00.189Z - debug: GET /css/main.css
+2018-11-20T23:36:02.209Z - debug: GET /product?
+2018-11-20T23:36:02.278Z - debug: GET /css/main.css
+2018-11-20T23:36:04.010Z - debug: GET /product/delete/6
+2018-11-20T23:36:04.017Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:36:04.022Z - info: RETURNING VIEW FOR {"_id":6,"productName":"Shoe","description":"Best Shoe ever!","productType":"Clothing","unitPrice":100}
+2018-11-20T23:36:04.070Z - debug: GET /css/main.css
+2018-11-20T23:36:07.995Z - debug: GET /product/delete/6
+2018-11-20T23:36:07.998Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:36:08.000Z - info: RETURNING VIEW FOR {"_id":6,"productName":"Shoe","description":"Best Shoe ever!","productType":"Clothing","unitPrice":100}
+2018-11-20T23:36:08.038Z - debug: GET /css/main.css
+2018-11-20T23:36:09.090Z - debug: POST /product/delete/6
+2018-11-20T23:36:09.129Z - info: Handling DELETE request [object Object]
+2018-11-20T23:36:09.130Z - info: Handling REMOVING ID=6
+2018-11-20T23:36:09.145Z - debug: GET /product
+2018-11-20T23:36:09.175Z - debug: GET /css/main.css
+2018-11-20T23:36:12.453Z - debug: GET /product/edit/2
+2018-11-20T23:36:12.454Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:36:12.456Z - info: RETURNING VIEW FOR{"_id":2,"productName":"Pant","description":"Even better Pant","productType":"Clothing","unitPrice":20}
+2018-11-20T23:36:12.517Z - debug: GET /css/main.css
+2018-11-20T23:36:28.043Z - debug: POST /product/save/2
+2018-11-20T23:36:28.049Z - info: Handling SAVE request [object Object]
+2018-11-20T23:36:28.050Z - info: Handling SAVING ID=2
+2018-11-20T23:36:28.051Z - info: ORIGINAL VALUES {"_id":2,"productName":"Pant","description":"Even better Pant","productType":"Clothing","unitPrice":20}
+2018-11-20T23:36:28.053Z - info: UPDATED VALUES: {"_id":"2","productName":"Pant edit","description":"Even better Pant","productType":"3","unitPrice":"20"}
+2018-11-20T23:36:28.055Z - info: SAVING UPDATED product {"_id":2,"productName":"Pant edit","description":"Even better Pant","productType":"3","unitPrice":20}
+2018-11-20T23:36:28.068Z - debug: GET /product
+2018-11-20T23:36:28.106Z - debug: GET /css/main.css
+2018-11-20T23:36:55.400Z - debug: GET /product
+2018-11-20T23:36:55.462Z - debug: GET /css/main.css
+2018-11-20T23:36:58.917Z - debug: GET /product/edit/3
+2018-11-20T23:36:58.922Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:36:58.929Z - info: RETURNING VIEW FOR{"_id":3,"productName":"Iphone","description":"Best Phone ever!","productType":"phone","unitPrice":1000}
+2018-11-20T23:36:59.004Z - debug: GET /css/main.css
+2018-11-20T23:37:07.409Z - debug: GET /product/create
+2018-11-20T23:37:07.416Z - info: Handling GET /create[object Object]
+2018-11-20T23:37:07.419Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:37:07.493Z - debug: GET /css/main.css
+2018-11-20T23:37:30.346Z - debug: POST /product/save
+2018-11-20T23:37:30.352Z - info: Handling POST [object Object]
+2018-11-20T23:37:30.354Z - debug: {"_id":"6","productName":"nOKIA","description":"mOBILE","productType":"eLECTRONIC","unitPrice":"10.5"}
+2018-11-20T23:37:30.359Z - info: NEW ID 6
+2018-11-20T23:37:30.372Z - info: SAVING NEW product {"productName":"nOKIA","description":"mOBILE","unitPrice":10,"_id":6,"productType":"eLECTRONIC"}
+2018-11-20T23:37:30.404Z - debug: GET /product
+2018-11-20T23:37:30.453Z - debug: GET /css/main.css
+2018-11-20T23:37:37.607Z - debug: GET /product/delete/6
+2018-11-20T23:37:37.611Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:37:37.612Z - info: RETURNING VIEW FOR {"productName":"nOKIA","description":"mOBILE","unitPrice":10,"_id":6,"productType":"eLECTRONIC"}
+2018-11-20T23:37:37.656Z - debug: GET /css/main.css
+2018-11-20T23:37:38.938Z - debug: POST /product/delete/6
+2018-11-20T23:37:38.943Z - info: Handling DELETE request [object Object]
+2018-11-20T23:37:38.946Z - info: Handling REMOVING ID=6
+2018-11-20T23:37:38.976Z - debug: GET /product
+2018-11-20T23:37:39.061Z - debug: GET /css/main.css
+2018-11-20T23:37:42.160Z - debug: GET /product/delete/5
+2018-11-20T23:37:42.163Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:37:42.164Z - info: RETURNING VIEW FOR {"_id":5,"productName":"Bag","description":"Best Bag ever!","productType":"Clothing","unitPrice":16}
+2018-11-20T23:37:42.206Z - debug: GET /css/main.css
+2018-11-20T23:37:43.571Z - debug: POST /product/delete/5
+2018-11-20T23:37:43.575Z - info: Handling DELETE request [object Object]
+2018-11-20T23:37:43.576Z - info: Handling REMOVING ID=5
+2018-11-20T23:37:43.586Z - debug: GET /product
+2018-11-20T23:37:43.632Z - debug: GET /css/main.css
+2018-11-20T23:38:04.221Z - debug: GET /product/delete/4
+2018-11-20T23:38:04.224Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:38:04.229Z - info: RETURNING VIEW FOR {"_id":4,"productName":"T-shirt","description":"Best t-shirt ever!","productType":"Clothing","unitPrice":12}
+2018-11-20T23:38:04.298Z - debug: GET /css/main.css
+2018-11-20T23:38:05.986Z - debug: POST /product/delete/4
+2018-11-20T23:38:05.990Z - info: Handling DELETE request [object Object]
+2018-11-20T23:38:05.991Z - info: Handling REMOVING ID=4
+2018-11-20T23:38:06.001Z - debug: GET /product
+2018-11-20T23:38:06.053Z - debug: GET /css/main.css
+2018-11-20T23:38:07.471Z - debug: GET /product/delete/3
+2018-11-20T23:38:07.477Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:38:07.481Z - info: RETURNING VIEW FOR {"_id":3,"productName":"Iphone","description":"Best Phone ever!","productType":"phone","unitPrice":1000}
+2018-11-20T23:38:07.531Z - debug: GET /css/main.css
+2018-11-20T23:38:08.719Z - debug: POST /product/delete/3
+2018-11-20T23:38:08.723Z - info: Handling DELETE request [object Object]
+2018-11-20T23:38:08.728Z - info: Handling REMOVING ID=3
+2018-11-20T23:38:08.746Z - debug: GET /product
+2018-11-20T23:38:08.801Z - debug: GET /css/main.css
+2018-11-20T23:38:10.053Z - debug: GET /product/delete/2
+2018-11-20T23:38:10.058Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:38:10.067Z - info: RETURNING VIEW FOR {"_id":2,"productName":"Pant edit","description":"Even better Pant","productType":"3","unitPrice":20}
+2018-11-20T23:38:10.122Z - debug: GET /css/main.css
+2018-11-20T23:38:11.103Z - debug: POST /product/delete/2
+2018-11-20T23:38:11.109Z - info: Handling DELETE request [object Object]
+2018-11-20T23:38:11.115Z - info: Handling REMOVING ID=2
+2018-11-20T23:38:11.146Z - debug: GET /product
+2018-11-20T23:38:11.240Z - debug: GET /css/main.css
+2018-11-20T23:38:12.930Z - debug: GET /product/delete/1
+2018-11-20T23:38:12.935Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:38:12.939Z - info: RETURNING VIEW FOR {"_id":1,"productName":"Dell Laptop","description":"Best Dell Laptop Ever!","unitPrice":1099,"productType":"Laptop","version":"Core i5 Processor"}
+2018-11-20T23:38:13.037Z - debug: GET /css/main.css
+2018-11-20T23:38:14.035Z - debug: POST /product/delete/1
+2018-11-20T23:38:14.044Z - info: Handling DELETE request [object Object]
+2018-11-20T23:38:14.051Z - info: Handling REMOVING ID=1
+2018-11-20T23:38:14.081Z - debug: GET /product
+2018-11-20T23:38:14.143Z - debug: GET /css/main.css
+2018-11-20T23:38:15.745Z - debug: GET /product/create
+2018-11-20T23:38:15.747Z - info: Handling GET /create[object Object]
+2018-11-20T23:38:15.749Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:38:15.794Z - debug: GET /css/main.css
+2018-11-20T23:38:40.788Z - debug: POST /product/save
+2018-11-20T23:38:40.792Z - info: Handling POST [object Object]
+2018-11-20T23:38:40.794Z - debug: {"_id":"1","productName":"Iphone New","description":"Mobile","productType":"Electronic","unitPrice":"600"}
+2018-11-20T23:38:40.797Z - info: NEW ID 1
+2018-11-20T23:38:40.800Z - info: SAVING NEW product {"productName":"Iphone New","description":"Mobile","unitPrice":600,"_id":1,"productType":"Electronic"}
+2018-11-20T23:38:40.812Z - debug: GET /product
+2018-11-20T23:38:40.870Z - debug: GET /css/main.css
+2018-11-20T23:38:45.628Z - debug: GET /product/create
+2018-11-20T23:38:45.630Z - info: Handling GET /create[object Object]
+2018-11-20T23:38:45.631Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-20T23:38:45.673Z - debug: GET /css/main.css
+2018-11-20T23:38:58.268Z - debug: POST /product/save
+2018-11-20T23:38:58.279Z - info: Handling POST [object Object]
+2018-11-20T23:38:58.294Z - debug: {"_id":"2","productName":"Samsung","description":"Mobile","productType":"Electronic","unitPrice":"400"}
+2018-11-20T23:38:58.297Z - info: NEW ID 2
+2018-11-20T23:38:58.299Z - info: SAVING NEW product {"productName":"Samsung","description":"Mobile","unitPrice":400,"_id":2,"productType":"Electronic"}
+2018-11-20T23:38:58.311Z - debug: GET /product
+2018-11-20T23:38:58.355Z - debug: GET /css/main.css
+2018-11-20T23:38:59.676Z - debug: GET /product/edit/2
+2018-11-20T23:38:59.678Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:38:59.680Z - info: RETURNING VIEW FOR{"productName":"Samsung","description":"Mobile","unitPrice":400,"_id":2,"productType":"Electronic"}
+2018-11-20T23:38:59.712Z - debug: GET /css/main.css
+2018-11-20T23:39:04.752Z - debug: POST /product/save/2
+2018-11-20T23:39:04.756Z - info: Handling SAVE request [object Object]
+2018-11-20T23:39:04.757Z - info: Handling SAVING ID=2
+2018-11-20T23:39:04.759Z - info: ORIGINAL VALUES {"productName":"Samsung","description":"Mobile","unitPrice":400,"_id":2,"productType":"Electronic"}
+2018-11-20T23:39:04.762Z - info: UPDATED VALUES: {"_id":"2","productName":"Samsung EDITED","description":"Mobile","productType":"Electronic","unitPrice":"400"}
+2018-11-20T23:39:04.765Z - info: SAVING UPDATED product {"productName":"Samsung EDITED","description":"Mobile","unitPrice":400,"_id":2,"productType":"Electronic"}
+2018-11-20T23:39:04.774Z - debug: GET /product
+2018-11-20T23:39:04.813Z - debug: GET /css/main.css

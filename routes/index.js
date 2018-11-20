@@ -18,28 +18,19 @@ const router = express.Router();
 //app.use(logger('dev'));
 //app.use(logger('combined', { stream: accessLogStream }));
 
-router.get("/", function (req, res) {
-  //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("index.ejs")
- })
+// Manage top-level request first
+router.get('/', (req, res, next) => {
+  LOG.debug('Request to /')
+  res.render('index.ejs', { title: 'Express App' })
+})
+  
 
- router.get("/index", function (req, res) {
-  //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("index.ejs")
- })
-
- router.get("/products", function (req, res) {
-  res.render("products.ejs")
- })
-
- router.get("/order", function (req, res) {
-  res.render("order/index.ejs")
- })
+ 
 // Defer path requests to a Product controller
 router.use('/product', require('../controllers/product.js'))
 
 //  Defer path requests to a order line controller
-router.use('/product', require('../controllers/orderline.js'))
+router.use('/orderline', require('../controllers/orderline.js'))
 router.use('/order', require('../controllers/order.js'))
 
 LOG.debug('Routing end.');

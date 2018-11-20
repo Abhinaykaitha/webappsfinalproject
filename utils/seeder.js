@@ -1,6 +1,6 @@
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
-const products = require('../data/product.json')
+const products = require('../data/products.json')
 const customers = require('../data/customer.json')
 const orderline = require('../data/orderline.json')
 const orders = require('../data/orders.json')
