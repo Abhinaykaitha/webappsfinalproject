@@ -1,365 +1,44 @@
-2018-11-13T04:44:21.798Z - info: Environment variables loaded.
-2018-11-13T04:44:21.834Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:44:21 GMT-0600 (Central Standard Time), pid=32952, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=70017024, heapTotal=61255680, heapUsed=38822256, external=19660218, loadavg=[0, 0, 0], uptime=38661.3204014
-Error: Cannot find module './utils/seeder.js'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-13T04:44:25.351Z - info: Environment variables loaded.
-2018-11-13T04:44:25.379Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:44:25 GMT-0600 (Central Standard Time), pid=33724, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=73048064, heapTotal=62304256, heapUsed=30566064, external=18389982, loadavg=[0, 0, 0], uptime=38664.8670781
-Error: Cannot find module './utils/seeder.js'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-13T04:44:43.312Z - info: Environment variables loaded.
-2018-11-13T04:44:43.339Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:44:43 GMT-0600 (Central Standard Time), pid=33668, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=73023488, heapTotal=62828544, heapUsed=30548528, external=18389982, loadavg=[0, 0, 0], uptime=38682.8273404
-Error: Cannot find module './utils/seeder.js'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-13T04:52:34.586Z - info: Environment variables loaded.
-2018-11-13T04:52:34.615Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:52:34 GMT-0600 (Central Standard Time), pid=32924, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=71540736, heapTotal=60731392, heapUsed=40688336, external=19852157, loadavg=[0, 0, 0], uptime=39154.1020333
-Error: Cannot find module './utils/seeder.js'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-13T04:53:55.494Z - info: Environment variables loaded.
-2018-11-13T04:53:55.539Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:53:55 GMT-0600 (Central Standard Time), pid=33632, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=68128768, heapTotal=62304256, heapUsed=37037544, external=19322656, loadavg=[0, 0, 0], uptime=39235.0217736
-Error: Cannot find module './utils/seeder.js'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-13T04:54:59.458Z - info: Environment variables loaded.
-2018-11-13T04:54:59.500Z - error: uncaughtException: Cannot find module './utils/seeder.js' date=Mon Nov 12 2018 22:54:59 GMT-0600 (Central Standard Time), pid=30208, uid=null, gid=null, cwd=C:\Users\S533985\Documents\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533985\Documents\44563\4-2\app.js], rss=70483968, heapTotal=60731392, heapUsed=39367504, external=19674136, loadavg=[0, 0, 0], uptime=39298.9854036
-Error: Cannot find module './utils/seeder.js'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533985\Documents\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-13T04:58:13.863Z - info: Environment variables loaded.
-2018-11-13T04:58:13.925Z - info: START seeder.
-2018-11-13T04:58:13.932Z - debug: 5 products seeded
-2018-11-13T04:58:13.932Z - info: END Seeder. Sample data read and verified.
-2018-11-13T04:58:31.502Z - info: Environment variables loaded.
-2018-11-13T04:58:31.536Z - info: START seeder.
-2018-11-13T04:58:31.540Z - debug: 5 products seeded
-2018-11-13T04:58:31.540Z - info: END Seeder. Sample data read and verified.
-2018-11-13T04:59:58.834Z - info: Environment variables loaded.
-2018-11-13T04:59:58.887Z - info: START seeder.
-2018-11-13T04:59:58.895Z - debug: 6 products seeded
-2018-11-13T04:59:58.897Z - info: END Seeder. Sample data read and verified.
-2018-11-13T05:01:05.602Z - info: Environment variables loaded.
-2018-11-13T05:01:05.689Z - info: START seeder.
-2018-11-13T05:01:05.696Z - debug: 6 products seeded
-2018-11-13T05:01:05.700Z - info: END Seeder. Sample data read and verified.
-2018-11-13T05:21:30.286Z - info: Environment variables loaded.
-2018-11-13T05:21:30.322Z - info: START seeder.
-2018-11-13T05:21:30.327Z - debug: 6 products seeded
-2018-11-13T05:21:30.327Z - info: END Seeder. Sample data read and verified.
-2018-11-13T05:22:49.525Z - info: Environment variables loaded.
-2018-11-13T05:22:49.568Z - info: START seeder.
-2018-11-13T05:22:49.573Z - debug: 6 products seeded
-2018-11-13T05:22:49.575Z - info: END Seeder. Sample data read and verified.
-2018-11-14T00:42:06.356Z - info: Environment variables loaded.
-2018-11-14T00:42:06.423Z - error: uncaughtException: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359 date=Tue Nov 13 2018 18:42:06 GMT-0600 (Central Standard Time), pid=27708, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=72003584, heapTotal=60805120, heapUsed=40378496, external=19898771, loadavg=[0, 0, 0], uptime=1158397.9015221
-SyntaxError: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359
-    at JSON.parse (<anonymous>)
-    at Object.Module._extensions..json (module.js:672:27)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-2018-11-14T00:43:05.088Z - info: Environment variables loaded.
-2018-11-14T00:43:05.148Z - error: uncaughtException: Cannot find module '../data/customer.json' date=Tue Nov 13 2018 18:43:05 GMT-0600 (Central Standard Time), pid=82132, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=70631424, heapTotal=61853696, heapUsed=39494520, external=19816853, loadavg=[0, 0, 0], uptime=1158456.6277544
-Error: Cannot find module '../data/customer.json'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-14T00:44:27.069Z - info: Environment variables loaded.
-2018-11-14T00:44:27.127Z - error: uncaughtException: Cannot find module '../data/customer.json' date=Tue Nov 13 2018 18:44:27 GMT-0600 (Central Standard Time), pid=70432, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=70471680, heapTotal=61853696, heapUsed=39213192, external=19690259, loadavg=[0, 0, 0], uptime=1158538.6071332
-Error: Cannot find module '../data/customer.json'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-14T00:45:03.782Z - info: Environment variables loaded.
-2018-11-14T00:45:03.838Z - error: uncaughtException: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359 date=Tue Nov 13 2018 18:45:03 GMT-0600 (Central Standard Time), pid=93720, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=70111232, heapTotal=61853696, heapUsed=38873440, external=19698451, loadavg=[0, 0, 0], uptime=1158575.3176272
-SyntaxError: C:\Users\S534051\Desktop\4-2\data\customer.json: Unexpected token } in JSON at position 359
-    at JSON.parse (<anonymous>)
-    at Object.Module._extensions..json (module.js:672:27)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\utils\seeder.js:4:19)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-2018-11-14T00:46:16.493Z - error: uncaughtException: Cannot read property 'loadDatabase' of undefined date=Tue Nov 13 2018 18:46:16 GMT-0600 (Central Standard Time), pid=19980, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=71049216, heapTotal=61853696, heapUsed=39900584, external=19842685, loadavg=[0, 0, 0], uptime=1158647.9728157
-TypeError: Cannot read property 'loadDatabase' of undefined
-    at module.exports (C:\Users\S534051\Desktop\4-2\utils\seeder.js:33:16)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:29)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-14T00:46:16.423Z - info: Environment variables loaded.
-2018-11-14T00:46:16.464Z - info: START seeder.
-2018-11-14T00:46:16.468Z - debug: 6 products seeded
-2018-11-14T00:46:16.468Z - info: END Seeder. Sample data read and verified.
-2018-11-14T00:47:03.068Z - info: Environment variables loaded.
-2018-11-14T00:47:03.138Z - error: uncaughtException: Cannot read property 'loadDatabase' of undefined date=Tue Nov 13 2018 18:47:03 GMT-0600 (Central Standard Time), pid=17068, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=69844992, heapTotal=61853696, heapUsed=39362216, external=19724283, loadavg=[0, 0, 0], uptime=1158694.6183503
-TypeError: Cannot read property 'loadDatabase' of undefined
-    at module.exports (C:\Users\S534051\Desktop\4-2\utils\seeder.js:33:16)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:54:29)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-14T00:47:03.110Z - info: START seeder.
-2018-11-14T00:47:03.113Z - debug: 6 products seeded
-2018-11-14T00:47:03.114Z - info: END Seeder. Sample data read and verified.
-2018-11-14T00:50:03.949Z - info: Environment variables loaded.
-2018-11-14T00:50:03.983Z - info: START seeder.
-2018-11-14T00:50:03.987Z - debug: 6 products seeded
-2018-11-14T00:50:03.988Z - info: END Seeder. Sample data read and verified.
-2018-11-14T00:50:03.991Z - debug: 4 customers seeded
-2018-11-14T00:50:03.991Z - info: END Seeder. Sample data read and verified.
-2018-11-14T02:30:37.770Z - info: Environment variables loaded.
-2018-11-14T02:30:37.806Z - info: START seeder.
-2018-11-14T02:30:37.809Z - debug: 6 products seeded
-2018-11-14T02:30:37.810Z - info: END Seeder. Sample data read and verified.
-2018-11-14T02:30:37.811Z - debug: 4 orderline seeded
-2018-11-14T02:30:37.811Z - info: END Seeder. Sample data read and verified.
-2018-11-14T02:30:37.813Z - debug: 4 customers seeded
-2018-11-14T02:30:37.813Z - info: END Seeder. Sample data read and verified.
-2018-11-14T04:52:01.882Z - info: Environment variables loaded.
-2018-11-14T04:52:01.927Z - info: START seeder.
-2018-11-14T04:52:01.935Z - debug: 6 products seeded
-2018-11-14T04:52:01.935Z - info: END Seeder. Sample data read and verified.
-2018-11-14T04:52:01.938Z - debug: 4 orderline seeded
-2018-11-14T04:52:01.938Z - info: END Seeder. Sample data read and verified.
-2018-11-14T04:52:01.942Z - debug: 4 customers seeded
-2018-11-14T04:52:01.942Z - info: END Seeder. Sample data read and verified.
-2018-11-14T04:55:19.091Z - error: uncaughtException: Cannot find module '../data/order.json' date=Tue Nov 13 2018 22:55:19 GMT-0600 (Central Standard Time), pid=35472, uid=null, gid=null, cwd=C:\Users\S533899\44563\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533899\44563\4-2\app.js], rss=68325376, heapTotal=62377984, heapUsed=36734040, external=19312689, loadavg=[0, 0, 0], uptime=104986.5808577
-Error: Cannot find module '../data/order.json'
-    at Function.Module._resolveFilename (module.js:548:15)
-    at Function.Module._load (module.js:475:25)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533899\44563\4-2\utils\seeder.js:6:16)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533899\44563\4-2\app.js:54:1)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-14T04:55:18.993Z - info: Environment variables loaded.
-2018-11-14T04:55:43.555Z - info: Environment variables loaded.
-2018-11-14T04:55:43.624Z - info: START seeder.
-2018-11-14T04:55:43.629Z - debug: 6 products seeded
-2018-11-14T04:55:43.632Z - debug: 5 orders seeded
-2018-11-14T04:55:43.632Z - info: END Seeder. Sample data read and verified.
-2018-11-14T04:55:43.635Z - debug: 4 orderline seeded
-2018-11-14T04:55:43.635Z - info: END Seeder. Sample data read and verified.
-2018-11-14T04:55:43.639Z - debug: 4 customers seeded
-2018-11-14T04:55:43.639Z - info: END Seeder. Sample data read and verified.
-2018-11-16T00:27:58.985Z - info: Environment variables loaded.
-2018-11-16T00:27:59.023Z - info: START seeder.
-2018-11-16T00:27:59.027Z - debug: 6 products seeded
-2018-11-16T00:27:59.029Z - debug: 5 orders seeded
-2018-11-16T00:27:59.029Z - info: END Seeder. Sample data read and verified.
-2018-11-16T00:27:59.031Z - debug: 4 orderline seeded
-2018-11-16T00:27:59.031Z - info: END Seeder. Sample data read and verified.
-2018-11-16T00:27:59.033Z - debug: 4 customers seeded
-2018-11-16T00:27:59.034Z - info: END Seeder. Sample data read and verified.
-2018-11-16T00:32:27.554Z - info: Environment variables loaded.
-2018-11-16T00:32:27.607Z - info: START seeder.
-2018-11-16T00:32:27.612Z - debug: 6 products seeded
-2018-11-16T00:32:27.615Z - debug: 5 orders seeded
-2018-11-16T00:32:27.619Z - info: END Seeder. Sample data read and verified.
-2018-11-16T00:32:27.625Z - debug: 4 orderline seeded
-2018-11-16T00:32:27.625Z - info: END Seeder. Sample data read and verified.
-2018-11-16T00:32:27.628Z - debug: 4 customers seeded
-2018-11-16T00:32:27.628Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:02:22.945Z - info: Environment variables loaded.
-2018-11-16T01:02:23.034Z - error: uncaughtException: listen EADDRINUSE :::8081 date=Thu Nov 15 2018 19:02:23 GMT-0600 (Central Standard Time), pid=21800, uid=null, gid=null, cwd=C:\Users\S534051\Desktop\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Desktop\4-2\app.js], rss=72589312, heapTotal=61853696, heapUsed=40923712, external=19934051, loadavg=[0, 0, 0], uptime=1332414.5046635
-Error: listen EADDRINUSE :::8081
-    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
-    at listenInCluster (net.js:1401:12)
-    at Server.listen (net.js:1485:7)
-    at Function.listen (C:\Users\S534051\Desktop\4-2\node_modules\express\lib\application.js:618:24)
-    at Object.<anonymous> (C:\Users\S534051\Desktop\4-2\app.js:57:5)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Function.Module.runMain (module.js:694:10)
-    at startup (bootstrap_node.js:204:16)
-    at bootstrap_node.js:625:3
-2018-11-16T01:02:22.982Z - info: START seeder.
-2018-11-16T01:02:22.987Z - debug: 6 products seeded
-2018-11-16T01:02:22.989Z - debug: 5 orders seeded
-2018-11-16T01:02:22.989Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:02:22.992Z - debug: 4 orderline seeded
-2018-11-16T01:02:22.992Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:02:22.995Z - debug: 4 customers seeded
-2018-11-16T01:02:22.995Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:02:59.195Z - info: Environment variables loaded.
-2018-11-16T01:02:59.232Z - info: START seeder.
-2018-11-16T01:02:59.235Z - debug: 6 products seeded
-2018-11-16T01:02:59.236Z - debug: 5 orders seeded
-2018-11-16T01:02:59.236Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:02:59.239Z - debug: 4 orderline seeded
-2018-11-16T01:02:59.239Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:02:59.240Z - debug: 4 customers seeded
-2018-11-16T01:02:59.241Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:04:09.863Z - info: Environment variables loaded.
-2018-11-16T01:04:09.901Z - info: START seeder.
-2018-11-16T01:04:09.905Z - debug: 6 products seeded
-2018-11-16T01:04:09.907Z - debug: 5 orders seeded
-2018-11-16T01:04:09.907Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:04:09.909Z - debug: 4 orderline seeded
-2018-11-16T01:04:09.909Z - info: END Seeder. Sample data read and verified.
-2018-11-16T01:04:09.911Z - debug: 4 customers seeded
-2018-11-16T01:04:09.912Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:19:54.927Z - info: Environment variables loaded.
+2018-11-16T01:19:54.933Z - debug: Routing Started
+2018-11-16T01:19:54.960Z - debug: Routing end.
+2018-11-16T01:19:54.995Z - info: START seeder.
+2018-11-16T01:19:54.998Z - debug: 6 products seeded
+2018-11-16T01:19:55.003Z - debug: 5 orders seeded
+2018-11-16T01:19:55.003Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:19:55.007Z - debug: 4 orderline seeded
+2018-11-16T01:19:55.007Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:19:55.012Z - debug: 4 customers seeded
+2018-11-16T01:19:55.012Z - info: END Seeder. Sample data read and verified.
+2018-11-20T07:43:12.648Z - info: Environment variables loaded.
+2018-11-20T07:43:12.664Z - debug: Routing Started
+2018-11-20T07:43:12.745Z - debug: Routing end.
+2018-11-20T07:43:12.822Z - info: START seeder.
+2018-11-20T07:43:12.828Z - debug: 6 products seeded
+2018-11-20T07:43:12.832Z - debug: 5 orders seeded
+2018-11-20T07:43:12.832Z - info: END Seeder. Sample data read and verified.
+2018-11-20T07:43:12.835Z - debug: 4 orderline seeded
+2018-11-20T07:43:12.835Z - info: END Seeder. Sample data read and verified.
+2018-11-20T07:43:12.841Z - debug: 4 customers seeded
+2018-11-20T07:43:12.841Z - info: END Seeder. Sample data read and verified.
+2018-11-20T07:43:55.634Z - info: Environment variables loaded.
+2018-11-20T07:43:55.647Z - debug: Routing Started
+2018-11-20T07:43:55.726Z - debug: Routing end.
+2018-11-20T07:43:55.825Z - info: START seeder.
+2018-11-20T07:43:55.835Z - debug: 6 products seeded
+2018-11-20T07:43:55.840Z - debug: 5 orders seeded
+2018-11-20T07:43:55.840Z - info: END Seeder. Sample data read and verified.
+2018-11-20T07:43:55.845Z - debug: 4 orderline seeded
+2018-11-20T07:43:55.847Z - info: END Seeder. Sample data read and verified.
+2018-11-20T07:43:55.853Z - debug: 4 customers seeded
+2018-11-20T07:43:55.853Z - info: END Seeder. Sample data read and verified.
+2018-11-20T08:54:09.115Z - info: Environment variables loaded.
+2018-11-20T08:54:09.139Z - debug: Routing Started
+2018-11-20T08:54:09.207Z - debug: Routing end.
+2018-11-20T08:54:09.264Z - info: START seeder.
+2018-11-20T08:54:09.269Z - debug: 6 products seeded
+2018-11-20T08:54:09.274Z - debug: 5 orders seeded
+2018-11-20T08:54:09.274Z - info: END Seeder. Sample data read and verified.
+2018-11-20T08:54:09.281Z - debug: 4 orderline seeded
+2018-11-20T08:54:09.281Z - info: END Seeder. Sample data read and verified.
+2018-11-20T08:54:09.286Z - debug: 4 customers seeded
+2018-11-20T08:54:09.287Z - info: END Seeder. Sample data read and verified.

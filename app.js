@@ -46,6 +46,8 @@ app.get("/", function (req, res) {
    app.get("/products", function (req, res) {
     res.render("product.ejs")
    })
+  const routes = require('./routes/index.js');
+  app.use('/',routes);
   
 
 //app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors

@@ -1,5 +1,3 @@
-
-//Author: Abhinay Reddy Kaitha
 const mongoose = require('mongoose')
 const CustomerSchema = new mongoose.Schema({
 _id: { 

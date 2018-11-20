@@ -32,12 +32,15 @@ router.get("/", function (req, res) {
   res.render("products.ejs")
  })
 
-
+ router.get("/order", function (req, res) {
+  res.render("order/index.ejs")
+ })
 // Defer path requests to a Product controller
 router.use('/product', require('../controllers/product.js'))
 
-// Defer path requests to a order line controller
+//  Defer path requests to a order line controller
 router.use('/product', require('../controllers/orderline.js'))
+router.use('/order', require('../controllers/order.js'))
 
 LOG.debug('Routing end.');
 module.exports = router
