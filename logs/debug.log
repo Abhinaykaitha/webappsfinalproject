@@ -712,3 +712,118 @@ Error: Cannot find module '../models/customers.js'
 2018-11-21T21:05:37.645Z - info: Handling GET /create[object Object]
 2018-11-21T21:05:37.651Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
 2018-11-21T21:05:37.679Z - debug: GET /css/main.css
+2018-11-21T21:10:53.427Z - debug: GET /customer
+2018-11-21T21:10:53.459Z - debug: GET /css/main.css
+2018-11-21T21:11:00.380Z - debug: GET /customer/edit/1
+2018-11-21T21:11:00.401Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:11:00.402Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:00.443Z - debug: GET /css/main.css
+2018-11-21T21:11:06.062Z - debug: GET /css/main.css
+2018-11-21T21:11:11.899Z - debug: GET /customer/edit/1
+2018-11-21T21:11:11.902Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:11:11.903Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:11.935Z - debug: GET /css/main.css
+2018-11-21T21:11:30.605Z - debug: POST /customer/save/1
+2018-11-21T21:11:30.675Z - info: Handling SAVE request [object Object]
+2018-11-21T21:11:30.676Z - info: Handling SAVING ID=1
+2018-11-21T21:11:30.678Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:30.683Z - info: UPDATED VALUES: {"Firstname":["Abhinay","Reddy"],"Lastname":"Kaitha","Age":"21","PhoneNumber":"23","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:30.685Z - info: SAVING UPDATED customer {"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:30.699Z - debug: GET /customer
+2018-11-21T21:11:30.737Z - debug: GET /css/main.css
+2018-11-21T21:12:05.951Z - debug: GET /customer/edit/1
+2018-11-21T21:12:05.953Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:12:05.953Z - info: RETURNING VIEW FOR{"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:12:05.980Z - debug: GET /css/main.css
+2018-11-21T21:12:21.072Z - debug: GET /customer/create
+2018-11-21T21:12:21.074Z - info: Handling GET /create[object Object]
+2018-11-21T21:12:21.075Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T21:12:21.100Z - debug: GET /css/main.css
+2018-11-21T21:13:45.238Z - debug: POST /customer/save
+2018-11-21T21:13:45.244Z - info: Handling POST [object Object]
+2018-11-21T21:13:45.245Z - debug: {"_id":"5","Firstname":["sampath","MiddleName"],"Lastname":"vvrs","Age":"22","PhoneNumber":"3384638321","street":"eysjk","city":"Cihdksty","state":"Statehdskb,","country":"Couyweksdntry"}
+2018-11-21T21:13:45.247Z - info: NEW ID 5
+2018-11-21T21:13:45.254Z - info: SAVING NEW customer {"Street":"String","city":"Cihdksty","state":"Statehdskb,","country":"Couyweksdntry","_id":5}
+2018-11-21T21:13:45.262Z - debug: GET /customer
+2018-11-21T21:13:45.399Z - debug: GET /css/main.css
+2018-11-21T21:14:19.825Z - debug: GET /customers
+2018-11-21T21:14:19.862Z - debug: GET /css/main.css
+2018-11-21T21:14:38.218Z - debug: GET /customer/edit/1
+2018-11-21T21:14:38.221Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:14:38.224Z - info: RETURNING VIEW FOR{"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:14:38.259Z - debug: GET /css/main.css
+2018-11-21T21:21:29.015Z - debug: GET /customer
+2018-11-21T21:21:29.054Z - debug: GET /css/main.css
+2018-11-21T21:21:29.135Z - debug: GET /images/favicon-32x32.png
+2018-11-21T21:21:31.325Z - debug: GET /customer/edit/1
+2018-11-21T21:21:31.328Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:21:31.331Z - info: RETURNING VIEW FOR{"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:21:31.416Z - debug: GET /css/main.css
+2018-11-21T21:21:40.629Z - debug: POST /customer/save/1
+2018-11-21T21:21:40.636Z - info: Handling SAVE request [object Object]
+2018-11-21T21:21:40.638Z - info: Handling SAVING ID=1
+2018-11-21T21:21:40.642Z - info: ORIGINAL VALUES {"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:21:40.643Z - info: UPDATED VALUES: {"customerFirstname":"Abhinay","customerMiddlename":"Reddy","customerLastname":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:21:40.644Z - info: SAVING UPDATED customer {"_id":1,"customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:21:40.739Z - debug: GET /customer
+2018-11-21T21:21:40.794Z - debug: GET /css/main.css
+2018-11-21T21:22:35.242Z - debug: GET /customer
+2018-11-21T21:22:35.317Z - debug: GET /css/main.css
+2018-11-21T21:22:35.393Z - debug: GET /images/favicon-32x32.png
+2018-11-21T21:22:36.760Z - debug: GET /customer/edit/1
+2018-11-21T21:22:36.764Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:22:36.765Z - info: RETURNING VIEW FOR{"_id":1,"customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:36.796Z - debug: GET /css/main.css
+2018-11-21T21:22:41.359Z - debug: POST /customer/save/1
+2018-11-21T21:22:41.360Z - info: Handling SAVE request [object Object]
+2018-11-21T21:22:41.361Z - info: Handling SAVING ID=1
+2018-11-21T21:22:41.362Z - info: ORIGINAL VALUES {"_id":1,"customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:41.364Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:41.365Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:41.370Z - debug: GET /customer
+2018-11-21T21:22:41.401Z - debug: GET /css/main.css
+2018-11-21T21:22:44.915Z - debug: GET /customer/edit/1
+2018-11-21T21:22:44.916Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:22:44.917Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:44.960Z - debug: GET /css/main.css
+2018-11-21T21:23:33.320Z - debug: GET /customer/edit/1
+2018-11-21T21:23:33.323Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:23:33.325Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:33.389Z - debug: GET /css/main.css
+2018-11-21T21:23:33.445Z - debug: GET /images/favicon-32x32.png
+2018-11-21T21:23:42.677Z - debug: POST /customer/save/1
+2018-11-21T21:23:42.679Z - info: Handling SAVE request [object Object]
+2018-11-21T21:23:42.680Z - info: Handling SAVING ID=1
+2018-11-21T21:23:42.680Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:42.680Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:42.681Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:42.684Z - debug: GET /customer
+2018-11-21T21:23:42.717Z - debug: GET /css/main.css
+2018-11-21T21:23:44.935Z - debug: GET /customer/details/1
+2018-11-21T21:23:44.936Z - info: Handling GET /details/:id [object Object]
+2018-11-21T21:23:44.938Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:44.972Z - debug: GET /css/main.css
+2018-11-21T21:23:47.480Z - debug: GET /css/main.css
+2018-11-21T21:23:48.491Z - debug: GET /customer/edit/1
+2018-11-21T21:23:48.495Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:23:48.497Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:48.552Z - debug: GET /css/main.css
+2018-11-21T21:23:52.734Z - debug: POST /customer/save/1
+2018-11-21T21:23:52.737Z - info: Handling SAVE request [object Object]
+2018-11-21T21:23:52.737Z - info: Handling SAVING ID=1
+2018-11-21T21:23:52.738Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:52.739Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaith","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:52.740Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaith","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:52.746Z - debug: GET /customer
+2018-11-21T21:23:52.780Z - debug: GET /css/main.css
+2018-11-21T21:23:57.308Z - debug: GET /customer/delete/1
+2018-11-21T21:23:57.312Z - info: Handling GET /delete [object Object]
+2018-11-21T21:23:57.314Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaith","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:57.384Z - debug: GET /css/main.css
+2018-11-21T21:23:58.831Z - debug: POST /customer/delete/1
+2018-11-21T21:23:58.833Z - info: Handling DELETE request [object Object]
+2018-11-21T21:23:58.834Z - info: Handling REMOVING ID=1
+2018-11-21T21:23:58.839Z - debug: GET /customer
+2018-11-21T21:23:58.882Z - debug: GET /css/main.css
+2018-11-21T21:24:32.526Z - debug: GET /product
+2018-11-21T21:24:32.567Z - debug: GET /css/main.css
