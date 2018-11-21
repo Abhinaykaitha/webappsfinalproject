@@ -827,3 +827,43 @@ Error: Cannot find module '../models/customers.js'
 2018-11-21T21:23:58.882Z - debug: GET /css/main.css
 2018-11-21T21:24:32.526Z - debug: GET /product
 2018-11-21T21:24:32.567Z - debug: GET /css/main.css
+2018-11-21T21:32:39.391Z - info: Environment variables loaded.
+2018-11-21T21:32:39.402Z - debug: Routing Started
+2018-11-21T21:32:39.438Z - debug: Routing end.
+2018-11-21T21:32:39.438Z - info: Loaded routing.
+2018-11-21T21:32:39.477Z - info: START seeder.
+2018-11-21T21:32:39.482Z - debug: 6 products seeded
+2018-11-21T21:32:39.483Z - debug: 5 orders seeded
+2018-11-21T21:32:39.484Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:32:39.486Z - debug: 4 orderline seeded
+2018-11-21T21:32:39.486Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:32:39.490Z - debug: 4 customers seeded
+2018-11-21T21:32:39.490Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:32:45.117Z - debug: GET /
+2018-11-21T21:32:45.126Z - debug: Request to /
+2018-11-21T21:32:45.337Z - debug: GET /css/main.css
+2018-11-21T21:32:54.177Z - debug: GET /customer
+2018-11-21T21:32:54.268Z - debug: GET /css/main.css
+2018-11-21T21:33:08.824Z - debug: GET /customer/create
+2018-11-21T21:33:08.825Z - info: Handling GET /create[object Object]
+2018-11-21T21:33:08.832Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T21:33:08.868Z - debug: GET /css/main.css
+2018-11-21T21:33:43.948Z - debug: POST /customer/save
+2018-11-21T21:33:44.036Z - info: Handling POST [object Object]
+2018-11-21T21:33:44.038Z - debug: {"_id":"5","customerFirstName":"sampath","customerMiddleName":"MiddleName","customerLastName":"vvrs","customerAge":"23","phoneNumber":"8237682782","street":"bdks.","city":"Kansas","state":"MO","country":"USA"}
+2018-11-21T21:33:44.040Z - info: NEW ID 5
+2018-11-21T21:33:44.048Z - info: SAVING NEW customer {"customerFirstName":"sampath","customerMiddleName":"MiddleName","customerLastName":"vvrs","customerAge":23,"phoneNumber":8237682782,"Street":"String","city":"Kansas","state":"MO","country":"USA","_id":5}
+2018-11-21T21:33:44.056Z - debug: GET /customer
+2018-11-21T21:33:44.109Z - debug: GET /css/main.css
+2018-11-21T21:35:09.283Z - debug: GET /customer/edit/1
+2018-11-21T21:35:09.288Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:35:09.295Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:09.384Z - debug: GET /css/main.css
+2018-11-21T21:35:19.602Z - debug: POST /customer/save/1
+2018-11-21T21:35:19.605Z - info: Handling SAVE request [object Object]
+2018-11-21T21:35:19.606Z - info: Handling SAVING ID=1
+2018-11-21T21:35:19.608Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:19.609Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"21","phoneNumber":"6606606600","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:19.610Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"21","phoneNumber":"6606606600","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:19.617Z - debug: GET /customer
+2018-11-21T21:35:19.691Z - debug: GET /css/main.css
