@@ -190,3 +190,35 @@
 2018-11-20T23:39:04.765Z - info: SAVING UPDATED product {"productName":"Samsung EDITED","description":"Mobile","unitPrice":400,"_id":2,"productType":"Electronic"}
 2018-11-20T23:39:04.774Z - debug: GET /product
 2018-11-20T23:39:04.813Z - debug: GET /css/main.css
+2018-11-21T03:34:40.768Z - info: Environment variables loaded.
+2018-11-21T03:34:40.799Z - debug: Routing Started
+2018-11-21T03:34:40.872Z - debug: Routing end.
+2018-11-21T03:34:40.872Z - info: Loaded routing.
+2018-11-21T03:34:40.933Z - info: START seeder.
+2018-11-21T03:34:40.943Z - debug: 6 products seeded
+2018-11-21T03:34:40.962Z - debug: 5 orders seeded
+2018-11-21T03:34:40.963Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:34:40.974Z - debug: 4 orderline seeded
+2018-11-21T03:34:40.974Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:34:40.979Z - debug: 4 customers seeded
+2018-11-21T03:34:40.980Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:34:59.465Z - debug: GET /
+2018-11-21T03:34:59.498Z - debug: Request to /
+2018-11-21T03:34:59.689Z - debug: GET /css/main.css
+2018-11-21T03:35:00.352Z - debug: GET /css/main.css
+2018-11-21T03:35:00.778Z - debug: GET /images/manifest.json
+2018-11-21T03:35:04.398Z - debug: GET /order
+2018-11-21T03:38:31.933Z - info: Environment variables loaded.
+2018-11-21T03:38:31.951Z - debug: Routing Started
+2018-11-21T03:38:32.008Z - debug: Routing end.
+2018-11-21T03:38:32.008Z - info: Loaded routing.
+2018-11-21T03:38:32.091Z - info: START seeder.
+2018-11-21T03:38:32.098Z - debug: 6 products seeded
+2018-11-21T03:38:32.101Z - debug: 5 orders seeded
+2018-11-21T03:38:32.101Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:38:32.104Z - debug: 4 orderline seeded
+2018-11-21T03:38:32.105Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:38:32.108Z - debug: 4 customers seeded
+2018-11-21T03:38:32.108Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:38:36.608Z - debug: GET /order
+2018-11-21T03:38:36.752Z - debug: GET /css/main.css
