@@ -55,6 +55,10 @@ app.use(errorHandler()) // load error handler
 const routes = require('./routes/index.js')
 app.use('/', routes)  // load routing
 LOG.info('Loaded routing.')
+//app.use((req, res, next) => {
+  //LOG.debug('%s %s', req.method, req.url)
+  //next()
+ //})
 
 app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
 
