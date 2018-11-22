@@ -222,3 +222,648 @@
 2018-11-21T03:38:32.108Z - info: END Seeder. Sample data read and verified.
 2018-11-21T03:38:36.608Z - debug: GET /order
 2018-11-21T03:38:36.752Z - debug: GET /css/main.css
+2018-11-21T17:46:36.623Z - info: Environment variables loaded.
+2018-11-21T17:46:36.648Z - debug: Routing Started
+2018-11-21T17:46:36.858Z - debug: Routing end.
+2018-11-21T17:46:36.866Z - info: Loaded routing.
+2018-11-21T17:46:36.933Z - info: START seeder.
+2018-11-21T17:46:36.942Z - debug: 6 products seeded
+2018-11-21T17:46:36.953Z - debug: 5 orders seeded
+2018-11-21T17:46:36.953Z - info: END Seeder. Sample data read and verified.
+2018-11-21T17:46:36.957Z - debug: 4 orderline seeded
+2018-11-21T17:46:36.958Z - info: END Seeder. Sample data read and verified.
+2018-11-21T17:46:36.961Z - debug: 4 customers seeded
+2018-11-21T17:46:36.961Z - info: END Seeder. Sample data read and verified.
+2018-11-21T17:46:42.509Z - debug: GET /
+2018-11-21T17:46:42.516Z - debug: Request to /
+2018-11-21T17:46:44.802Z - debug: GET /css/main.css
+2018-11-21T17:46:45.140Z - debug: GET /images/favicon-32x32.png
+2018-11-21T17:46:45.142Z - debug: GET /images/manifest.json
+2018-11-21T17:46:45.158Z - debug: GET /images/favicon-16x16.png
+2018-11-21T17:46:45.164Z - debug: GET /images/favicon-96x96.png
+2018-11-21T17:46:45.173Z - debug: GET /images/android-icon-192x192.png
+2018-11-21T17:46:47.126Z - debug: GET /product
+2018-11-21T17:46:47.198Z - debug: GET /css/main.css
+2018-11-21T17:46:49.242Z - debug: GET /order
+2018-11-21T17:46:49.354Z - debug: GET /css/main.css
+2018-11-21T17:46:52.091Z - debug: GET /customers
+2018-11-21T17:46:52.119Z - debug: GET /css/main.css
+2018-11-21T17:46:54.027Z - debug: GET /product
+2018-11-21T17:46:54.054Z - debug: GET /css/main.css
+2018-11-21T17:46:55.226Z - debug: GET /order
+2018-11-21T17:46:55.285Z - debug: GET /css/main.css
+2018-11-21T18:12:43.097Z - info: Environment variables loaded.
+2018-11-21T18:12:43.204Z - error: uncaughtException: Cannot find module '../models/customers.js' date=Wed Nov 21 2018 12:12:43 GMT-0600 (Central Standard Time), pid=230148, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=70922240, heapTotal=61779968, heapUsed=39730840, external=19749707, loadavg=[0, 0, 0], uptime=1826234.6292336
+Error: Cannot find module '../models/customers.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\controllers\customers.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+2018-11-21T18:12:43.108Z - debug: Routing Started
+2018-11-21T18:13:43.806Z - info: Environment variables loaded.
+2018-11-21T18:13:43.909Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Wed Nov 21 2018 12:13:43 GMT-0600 (Central Standard Time), pid=244708, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=70512640, heapTotal=61779968, heapUsed=39579440, external=19753122, loadavg=[0, 0, 0], uptime=1826295.3340764
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S534051\Documents\4-2\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-21T18:13:43.816Z - debug: Routing Started
+2018-11-21T18:16:20.493Z - info: Environment variables loaded.
+2018-11-21T18:16:20.661Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Wed Nov 21 2018 12:16:20 GMT-0600 (Central Standard Time), pid=192460, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=71290880, heapTotal=61255680, heapUsed=40360264, external=19829035, loadavg=[0, 0, 0], uptime=1826452.0564105
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S534051\Documents\4-2\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-21T18:16:20.511Z - debug: Routing Started
+2018-11-21T18:20:29.724Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Wed Nov 21 2018 12:20:29 GMT-0600 (Central Standard Time), pid=209416, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=71016448, heapTotal=61779968, heapUsed=39777872, external=19753122, loadavg=[0, 0, 0], uptime=1826701.1513416
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S534051\Documents\4-2\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-21T18:20:29.617Z - info: Environment variables loaded.
+2018-11-21T18:20:29.626Z - debug: Routing Started
+2018-11-21T18:21:18.606Z - info: Environment variables loaded.
+2018-11-21T18:21:18.615Z - debug: Routing Started
+2018-11-21T18:21:18.644Z - debug: Routing end.
+2018-11-21T18:21:18.644Z - info: Loaded routing.
+2018-11-21T18:21:18.680Z - info: START seeder.
+2018-11-21T18:21:18.683Z - debug: 6 products seeded
+2018-11-21T18:21:18.684Z - debug: 5 orders seeded
+2018-11-21T18:21:18.685Z - info: END Seeder. Sample data read and verified.
+2018-11-21T18:21:18.686Z - debug: 4 orderline seeded
+2018-11-21T18:21:18.686Z - info: END Seeder. Sample data read and verified.
+2018-11-21T18:21:18.688Z - debug: 4 customers seeded
+2018-11-21T18:21:18.688Z - info: END Seeder. Sample data read and verified.
+2018-11-21T18:21:36.095Z - debug: GET /
+2018-11-21T18:21:36.104Z - debug: Request to /
+2018-11-21T18:21:36.535Z - debug: GET /css/main.css
+2018-11-21T18:21:49.044Z - debug: GET /customers
+2018-11-21T18:21:49.064Z - debug: GET /css/main.css
+2018-11-21T18:21:53.242Z - debug: GET /product
+2018-11-21T18:21:53.264Z - debug: GET /css/main.css
+2018-11-21T18:25:31.668Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Wed Nov 21 2018 12:25:31 GMT-0600 (Central Standard Time), pid=247944, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=69861376, heapTotal=62304256, heapUsed=38974216, external=19634720, loadavg=[0, 0, 0], uptime=1827003.1030308
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S534051\Documents\4-2\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-21T18:25:31.579Z - info: Environment variables loaded.
+2018-11-21T18:25:31.587Z - debug: Routing Started
+2018-11-21T18:30:07.405Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Wed Nov 21 2018 12:30:07 GMT-0600 (Central Standard Time), pid=194280, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=69627904, heapTotal=62304256, heapUsed=38639328, external=19612610, loadavg=[0, 0, 0], uptime=1827278.8392203
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S534051\Documents\4-2\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-21T18:30:07.311Z - info: Environment variables loaded.
+2018-11-21T18:30:07.321Z - debug: Routing Started
+2018-11-21T19:22:15.696Z - error: uncaughtException: Cannot find module '../models/customers.js' date=Wed Nov 21 2018 13:22:15 GMT-0600 (Central Standard Time), pid=241836, uid=null, gid=null, cwd=C:\Users\S534051\Documents\4-2, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S534051\Documents\4-2\app.js], rss=69783552, heapTotal=62304256, heapUsed=38661504, external=19609195, loadavg=[0, 0, 0], uptime=1830407.1244231
+Error: Cannot find module '../models/customers.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\controllers\customers.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\routes\index.js:35:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S534051\Documents\4-2\app.js:55:16)
+    at Module._compile (module.js:653:30)
+2018-11-21T19:22:15.590Z - info: Environment variables loaded.
+2018-11-21T19:22:15.599Z - debug: Routing Started
+2018-11-21T19:23:11.852Z - info: Environment variables loaded.
+2018-11-21T19:23:11.862Z - debug: Routing Started
+2018-11-21T19:23:11.892Z - debug: Routing end.
+2018-11-21T19:23:11.892Z - info: Loaded routing.
+2018-11-21T19:23:11.931Z - info: START seeder.
+2018-11-21T19:23:11.934Z - debug: 6 products seeded
+2018-11-21T19:23:11.936Z - debug: 5 orders seeded
+2018-11-21T19:23:11.936Z - info: END Seeder. Sample data read and verified.
+2018-11-21T19:23:11.938Z - debug: 4 orderline seeded
+2018-11-21T19:23:11.938Z - info: END Seeder. Sample data read and verified.
+2018-11-21T19:23:11.940Z - debug: 4 customers seeded
+2018-11-21T19:23:11.940Z - info: END Seeder. Sample data read and verified.
+2018-11-21T19:23:21.229Z - debug: GET /
+2018-11-21T19:23:21.237Z - debug: Request to /
+2018-11-21T19:23:21.693Z - debug: GET /css/main.css
+2018-11-21T19:23:35.138Z - debug: GET /customers
+2018-11-21T19:24:43.506Z - debug: GET /customers
+2018-11-21T19:26:13.628Z - debug: GET /
+2018-11-21T19:26:13.629Z - debug: Request to /
+2018-11-21T19:26:13.655Z - debug: GET /css/main.css
+2018-11-21T19:26:13.720Z - debug: GET /images/favicon-32x32.png
+2018-11-21T19:26:15.262Z - debug: GET /customers
+2018-11-21T19:26:15.320Z - debug: GET /css/main.css
+2018-11-21T19:26:26.802Z - debug: GET /customer/details/1
+2018-11-21T19:26:26.829Z - debug: GET /css/main.css
+2018-11-21T19:26:48.733Z - debug: GET /customer/create
+2018-11-21T19:26:48.762Z - debug: GET /css/main.css
+2018-11-21T19:33:37.675Z - debug: GET /customers
+2018-11-21T19:33:37.802Z - debug: GET /css/main.css
+2018-11-21T19:34:05.925Z - debug: GET /customer/edit/1
+2018-11-21T19:34:05.946Z - debug: GET /css/main.css
+2018-11-21T19:34:11.654Z - debug: GET /customer/edit/2
+2018-11-21T19:34:11.681Z - debug: GET /css/main.css
+2018-11-21T19:34:20.445Z - debug: GET /customer/details/1
+2018-11-21T19:34:20.477Z - debug: GET /css/main.css
+2018-11-21T19:36:12.746Z - debug: GET /customers
+2018-11-21T19:36:12.852Z - debug: GET /css/main.css
+2018-11-21T19:36:12.935Z - debug: GET /images/favicon-32x32.png
+2018-11-21T19:36:14.250Z - debug: GET /about
+2018-11-21T19:36:14.271Z - debug: GET /css/main.css
+2018-11-21T19:36:59.058Z - debug: GET /customers
+2018-11-21T19:36:59.110Z - debug: GET /css/main.css
+2018-11-21T19:36:59.182Z - debug: GET /images/favicon-32x32.png
+2018-11-21T19:37:00.512Z - debug: GET /about.ejs
+2018-11-21T19:37:00.584Z - debug: GET /css/main.css
+2018-11-21T19:40:20.709Z - debug: GET /
+2018-11-21T19:40:20.715Z - debug: Request to /
+2018-11-21T19:40:20.799Z - debug: GET /css/main.css
+2018-11-21T19:40:20.940Z - debug: GET /images/favicon-32x32.png
+2018-11-21T19:54:02.913Z - info: Environment variables loaded.
+2018-11-21T19:54:02.922Z - debug: Routing Started
+2018-11-21T19:54:02.949Z - debug: Routing end.
+2018-11-21T19:54:02.949Z - info: Loaded routing.
+2018-11-21T19:54:02.980Z - info: START seeder.
+2018-11-21T19:54:02.983Z - debug: 6 products seeded
+2018-11-21T19:54:02.985Z - debug: 5 orders seeded
+2018-11-21T19:54:02.985Z - info: END Seeder. Sample data read and verified.
+2018-11-21T19:54:02.988Z - debug: 4 orderline seeded
+2018-11-21T19:54:02.989Z - info: END Seeder. Sample data read and verified.
+2018-11-21T19:54:02.992Z - debug: 4 customers seeded
+2018-11-21T19:54:02.992Z - info: END Seeder. Sample data read and verified.
+2018-11-21T19:54:07.373Z - debug: GET /
+2018-11-21T19:54:07.382Z - debug: Request to /
+2018-11-21T19:54:07.691Z - debug: GET /css/main.css
+2018-11-21T19:54:09.996Z - debug: GET /customers
+2018-11-21T19:54:10.036Z - debug: GET /css/main.css
+2018-11-21T19:54:12.253Z - debug: GET /customers/edit/
+2018-11-21T19:54:12.295Z - debug: GET /css/main.css
+2018-11-21T19:54:16.104Z - debug: GET /customers/details/
+2018-11-21T19:54:16.129Z - debug: GET /css/main.css
+2018-11-21T19:55:38.765Z - debug: GET /customers
+2018-11-21T19:55:38.798Z - debug: GET /css/main.css
+2018-11-21T19:55:38.895Z - debug: GET /images/favicon-32x32.png
+2018-11-21T19:55:40.346Z - debug: GET /customers
+2018-11-21T19:55:40.382Z - debug: GET /css/main.css
+2018-11-21T19:55:41.879Z - debug: GET /customers/edit/
+2018-11-21T19:55:41.904Z - debug: GET /css/main.css
+2018-11-21T19:56:48.071Z - debug: GET /customer/edit/1
+2018-11-21T19:56:48.105Z - debug: GET /css/main.css
+2018-11-21T19:58:58.858Z - debug: GET /customers/edit/
+2018-11-21T19:58:58.889Z - debug: GET /css/main.css
+2018-11-21T19:59:04.435Z - debug: GET /customers
+2018-11-21T19:59:04.475Z - debug: GET /css/main.css
+2018-11-21T19:59:04.575Z - debug: GET /images/favicon-32x32.png
+2018-11-21T19:59:09.185Z - debug: GET /customers/create
+2018-11-21T19:59:09.187Z - info: Handling GET /create[object Object]
+2018-11-21T19:59:09.199Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T20:01:34.097Z - debug: GET /customers/create
+2018-11-21T20:01:34.101Z - info: Handling GET /create[object Object]
+2018-11-21T20:01:34.105Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T20:01:36.781Z - debug: GET /customers/edit/
+2018-11-21T20:01:36.941Z - debug: GET /css/main.css
+2018-11-21T20:01:41.022Z - debug: GET /css/main.css
+2018-11-21T20:03:28.380Z - debug: GET /
+2018-11-21T20:03:28.381Z - debug: Request to /
+2018-11-21T20:03:28.407Z - debug: GET /css/main.css
+2018-11-21T20:03:30.630Z - debug: GET /customers
+2018-11-21T20:03:30.661Z - debug: GET /css/main.css
+2018-11-21T20:03:34.789Z - debug: GET /customers/delete/
+2018-11-21T20:03:34.822Z - debug: GET /css/main.css
+2018-11-21T20:03:37.698Z - debug: GET /customers/details/
+2018-11-21T20:03:37.720Z - debug: GET /css/main.css
+2018-11-21T20:03:40.688Z - debug: GET /customers/edit/
+2018-11-21T20:03:40.714Z - debug: GET /css/main.css
+2018-11-21T20:05:36.779Z - debug: GET /customers
+2018-11-21T20:05:36.863Z - debug: GET /css/main.css
+2018-11-21T20:05:37.066Z - debug: GET /images/favicon-32x32.png
+2018-11-21T20:05:38.696Z - debug: GET /customers/delete/
+2018-11-21T20:05:38.765Z - debug: GET /css/main.css
+2018-11-21T20:08:43.979Z - debug: GET /customers
+2018-11-21T20:08:44.132Z - debug: GET /css/main.css
+2018-11-21T20:08:44.222Z - debug: GET /images/favicon-32x32.png
+2018-11-21T20:08:46.251Z - debug: GET /customers/delete/
+2018-11-21T20:08:46.278Z - debug: GET /css/main.css
+2018-11-21T20:08:49.271Z - debug: GET /customers/details/
+2018-11-21T20:08:49.297Z - debug: GET /css/main.css
+2018-11-21T20:08:52.694Z - debug: GET /customers/create
+2018-11-21T20:08:52.695Z - info: Handling GET /create[object Object]
+2018-11-21T20:08:52.696Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T20:09:32.707Z - debug: GET /
+2018-11-21T20:09:32.709Z - debug: Request to /
+2018-11-21T20:09:32.736Z - debug: GET /css/main.css
+2018-11-21T20:09:36.931Z - debug: GET /product/create
+2018-11-21T20:09:36.933Z - info: Handling GET /create[object Object]
+2018-11-21T20:09:36.936Z - debug: {"productName":"product","description":"description","unitPrice":9.99,"version":"version"}
+2018-11-21T20:09:36.977Z - debug: GET /css/main.css
+2018-11-21T20:09:45.996Z - debug: GET /customers
+2018-11-21T20:09:46.033Z - debug: GET /css/main.css
+2018-11-21T20:10:29.233Z - debug: GET /
+2018-11-21T20:10:29.236Z - debug: Request to /
+2018-11-21T20:10:29.276Z - debug: GET /css/main.css
+2018-11-21T20:10:32.974Z - debug: GET /customers/delete/1
+2018-11-21T20:10:32.976Z - info: Handling GET /delete [object Object]
+2018-11-21T20:10:32.977Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T20:11:38.940Z - debug: GET /order
+2018-11-21T20:11:38.968Z - debug: GET /css/main.css
+2018-11-21T20:11:39.783Z - debug: GET /customers
+2018-11-21T20:12:29.492Z - debug: GET /customers
+2018-11-21T20:12:34.922Z - debug: GET /
+2018-11-21T20:12:34.924Z - debug: Request to /
+2018-11-21T20:12:34.954Z - debug: GET /css/main.css
+2018-11-21T20:12:36.928Z - debug: GET /
+2018-11-21T20:12:36.931Z - debug: Request to /
+2018-11-21T20:12:36.959Z - debug: GET /css/main.css
+2018-11-21T20:12:40.012Z - debug: GET /customer
+2018-11-21T20:12:40.045Z - debug: GET /css/main.css
+2018-11-21T20:12:51.100Z - debug: GET /customer
+2018-11-21T20:12:51.222Z - debug: GET /css/main.css
+2018-11-21T20:12:51.265Z - debug: GET /images/favicon-32x32.png
+2018-11-21T20:12:53.225Z - debug: GET /customers
+2018-11-21T20:12:53.269Z - debug: GET /css/main.css
+2018-11-21T20:13:02.255Z - debug: GET /customers/delete/
+2018-11-21T20:13:02.286Z - debug: GET /css/main.css
+2018-11-21T20:30:46.905Z - debug: GET /product
+2018-11-21T20:30:46.932Z - debug: GET /css/main.css
+2018-11-21T20:30:48.505Z - debug: GET /product/edit/6
+2018-11-21T20:30:48.506Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T20:30:48.507Z - info: RETURNING VIEW FOR{"_id":6,"productName":"Shoe","description":"Best Shoe ever!","productType":"Clothing","unitPrice":100}
+2018-11-21T20:30:48.552Z - debug: GET /css/main.css
+2018-11-21T20:30:54.244Z - debug: GET /order
+2018-11-21T20:30:54.340Z - debug: GET /css/main.css
+2018-11-21T20:30:57.104Z - debug: GET /order/edit/100
+2018-11-21T20:30:57.105Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T20:30:57.106Z - info: RETURNING VIEW FOR{"_id":100,"orderDate":"24/10/1996","paymentType":"cash","_customerid":1,"totalAmount":600}
+2018-11-21T20:30:57.132Z - debug: GET /css/main.css
+2018-11-21T20:31:09.534Z - debug: GET /orderLineItem
+2018-11-21T20:31:09.570Z - debug: GET /css/main.css
+2018-11-21T20:31:11.654Z - debug: GET /css/main.css
+2018-11-21T20:31:38.779Z - debug: GET /product
+2018-11-21T20:31:38.814Z - debug: GET /css/main.css
+2018-11-21T20:31:38.883Z - debug: GET /images/favicon-32x32.png
+2018-11-21T20:31:46.858Z - debug: GET /
+2018-11-21T20:31:46.860Z - debug: Request to /
+2018-11-21T20:31:46.883Z - debug: GET /css/main.css
+2018-11-21T20:31:50.878Z - debug: GET /customers
+2018-11-21T20:31:50.912Z - debug: GET /css/main.css
+2018-11-21T20:31:52.571Z - debug: GET /product
+2018-11-21T20:31:52.598Z - debug: GET /css/main.css
+2018-11-21T20:32:01.996Z - debug: GET /order
+2018-11-21T20:32:02.023Z - debug: GET /css/main.css
+2018-11-21T20:32:05.559Z - debug: GET /customers
+2018-11-21T20:32:05.593Z - debug: GET /css/main.css
+2018-11-21T20:32:08.018Z - debug: GET /product
+2018-11-21T20:32:08.045Z - debug: GET /css/main.css
+2018-11-21T20:32:14.795Z - debug: GET /customers
+2018-11-21T20:32:14.838Z - debug: GET /css/main.css
+2018-11-21T20:32:30.428Z - debug: GET /
+2018-11-21T20:32:30.431Z - debug: Request to /
+2018-11-21T20:32:30.563Z - debug: GET /css/main.css
+2018-11-21T20:33:29.957Z - debug: GET /product
+2018-11-21T20:33:30.010Z - debug: GET /css/main.css
+2018-11-21T20:33:34.588Z - debug: GET /product/details/3
+2018-11-21T20:33:34.590Z - info: Handling GET /details/:id [object Object]
+2018-11-21T20:33:34.591Z - info: RETURNING VIEW FOR {"_id":3,"productName":"Iphone","description":"Best Phone ever!","productType":"phone","unitPrice":1000}
+2018-11-21T20:33:34.626Z - debug: GET /css/main.css
+2018-11-21T20:33:52.640Z - debug: GET /customers
+2018-11-21T20:33:52.667Z - debug: GET /css/main.css
+2018-11-21T20:33:55.637Z - debug: GET /customers/edit/
+2018-11-21T20:33:55.664Z - debug: GET /css/main.css
+2018-11-21T20:34:24.070Z - debug: GET /
+2018-11-21T20:34:24.072Z - debug: Request to /
+2018-11-21T20:34:24.091Z - debug: GET /css/main.css
+2018-11-21T20:34:25.512Z - debug: GET /customers
+2018-11-21T20:34:25.661Z - debug: GET /css/main.css
+2018-11-21T20:34:27.426Z - debug: GET /customers/edit/
+2018-11-21T20:34:27.465Z - debug: GET /css/main.css
+2018-11-21T20:35:06.510Z - debug: GET /customers
+2018-11-21T20:35:06.556Z - debug: GET /css/main.css
+2018-11-21T20:35:08.305Z - debug: GET /customers/edit/
+2018-11-21T20:35:08.361Z - debug: GET /css/main.css
+2018-11-21T20:35:25.693Z - debug: GET /customers/edit/
+2018-11-21T20:35:25.722Z - debug: GET /css/main.css
+2018-11-21T20:35:59.822Z - debug: GET /customers
+2018-11-21T20:35:59.856Z - debug: GET /css/main.css
+2018-11-21T20:36:01.755Z - debug: GET /customers/edit/
+2018-11-21T20:36:01.782Z - debug: GET /css/main.css
+2018-11-21T20:36:14.099Z - debug: GET /
+2018-11-21T20:36:14.103Z - debug: Request to /
+2018-11-21T20:36:14.338Z - debug: GET /css/main.css
+2018-11-21T21:03:09.714Z - info: Environment variables loaded.
+2018-11-21T21:03:09.724Z - debug: Routing Started
+2018-11-21T21:03:09.750Z - debug: Routing end.
+2018-11-21T21:03:09.750Z - info: Loaded routing.
+2018-11-21T21:03:09.780Z - info: START seeder.
+2018-11-21T21:03:09.784Z - debug: 6 products seeded
+2018-11-21T21:03:09.786Z - debug: 5 orders seeded
+2018-11-21T21:03:09.786Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:03:09.788Z - debug: 4 orderline seeded
+2018-11-21T21:03:09.788Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:03:09.789Z - debug: 4 customers seeded
+2018-11-21T21:03:09.789Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:03:16.578Z - debug: GET /
+2018-11-21T21:03:16.584Z - debug: Request to /
+2018-11-21T21:03:16.621Z - debug: GET /css/main.css
+2018-11-21T21:03:20.460Z - debug: GET /customers
+2018-11-21T21:03:20.503Z - debug: GET /css/main.css
+2018-11-21T21:03:22.076Z - debug: GET /customers
+2018-11-21T21:03:22.111Z - debug: GET /css/main.css
+2018-11-21T21:03:24.333Z - debug: GET /product
+2018-11-21T21:03:24.390Z - debug: GET /css/main.css
+2018-11-21T21:03:25.782Z - debug: GET /customers
+2018-11-21T21:03:25.807Z - debug: GET /css/main.css
+2018-11-21T21:05:11.717Z - info: Environment variables loaded.
+2018-11-21T21:05:11.728Z - debug: Routing Started
+2018-11-21T21:05:11.757Z - debug: Routing end.
+2018-11-21T21:05:11.758Z - info: Loaded routing.
+2018-11-21T21:05:11.788Z - info: START seeder.
+2018-11-21T21:05:11.791Z - debug: 6 products seeded
+2018-11-21T21:05:11.792Z - debug: 5 orders seeded
+2018-11-21T21:05:11.793Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:05:11.795Z - debug: 4 orderline seeded
+2018-11-21T21:05:11.795Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:05:11.796Z - debug: 4 customers seeded
+2018-11-21T21:05:11.796Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:05:14.973Z - debug: GET /
+2018-11-21T21:05:14.983Z - debug: Request to /
+2018-11-21T21:05:15.357Z - debug: GET /css/main.css
+2018-11-21T21:05:17.941Z - debug: GET /customer
+2018-11-21T21:05:17.973Z - debug: GET /css/main.css
+2018-11-21T21:05:19.889Z - debug: GET /customer/edit/1
+2018-11-21T21:05:19.891Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:05:19.892Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:05:19.912Z - debug: GET /css/main.css
+2018-11-21T21:05:26.693Z - debug: GET /customer/edit/1
+2018-11-21T21:05:26.695Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:05:26.697Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:05:26.758Z - debug: GET /css/main.css
+2018-11-21T21:05:30.325Z - debug: GET /customer/details/1
+2018-11-21T21:05:30.333Z - info: Handling GET /details/:id [object Object]
+2018-11-21T21:05:30.338Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:05:30.399Z - debug: GET /css/main.css
+2018-11-21T21:05:33.770Z - debug: GET /customer/delete/1
+2018-11-21T21:05:33.772Z - info: Handling GET /delete [object Object]
+2018-11-21T21:05:33.775Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:05:33.805Z - debug: GET /css/main.css
+2018-11-21T21:05:37.643Z - debug: GET /customer/create
+2018-11-21T21:05:37.645Z - info: Handling GET /create[object Object]
+2018-11-21T21:05:37.651Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T21:05:37.679Z - debug: GET /css/main.css
+2018-11-21T21:10:53.427Z - debug: GET /customer
+2018-11-21T21:10:53.459Z - debug: GET /css/main.css
+2018-11-21T21:11:00.380Z - debug: GET /customer/edit/1
+2018-11-21T21:11:00.401Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:11:00.402Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:00.443Z - debug: GET /css/main.css
+2018-11-21T21:11:06.062Z - debug: GET /css/main.css
+2018-11-21T21:11:11.899Z - debug: GET /customer/edit/1
+2018-11-21T21:11:11.902Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:11:11.903Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:11.935Z - debug: GET /css/main.css
+2018-11-21T21:11:30.605Z - debug: POST /customer/save/1
+2018-11-21T21:11:30.675Z - info: Handling SAVE request [object Object]
+2018-11-21T21:11:30.676Z - info: Handling SAVING ID=1
+2018-11-21T21:11:30.678Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:30.683Z - info: UPDATED VALUES: {"Firstname":["Abhinay","Reddy"],"Lastname":"Kaitha","Age":"21","PhoneNumber":"23","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:30.685Z - info: SAVING UPDATED customer {"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:11:30.699Z - debug: GET /customer
+2018-11-21T21:11:30.737Z - debug: GET /css/main.css
+2018-11-21T21:12:05.951Z - debug: GET /customer/edit/1
+2018-11-21T21:12:05.953Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:12:05.953Z - info: RETURNING VIEW FOR{"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:12:05.980Z - debug: GET /css/main.css
+2018-11-21T21:12:21.072Z - debug: GET /customer/create
+2018-11-21T21:12:21.074Z - info: Handling GET /create[object Object]
+2018-11-21T21:12:21.075Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T21:12:21.100Z - debug: GET /css/main.css
+2018-11-21T21:13:45.238Z - debug: POST /customer/save
+2018-11-21T21:13:45.244Z - info: Handling POST [object Object]
+2018-11-21T21:13:45.245Z - debug: {"_id":"5","Firstname":["sampath","MiddleName"],"Lastname":"vvrs","Age":"22","PhoneNumber":"3384638321","street":"eysjk","city":"Cihdksty","state":"Statehdskb,","country":"Couyweksdntry"}
+2018-11-21T21:13:45.247Z - info: NEW ID 5
+2018-11-21T21:13:45.254Z - info: SAVING NEW customer {"Street":"String","city":"Cihdksty","state":"Statehdskb,","country":"Couyweksdntry","_id":5}
+2018-11-21T21:13:45.262Z - debug: GET /customer
+2018-11-21T21:13:45.399Z - debug: GET /css/main.css
+2018-11-21T21:14:19.825Z - debug: GET /customers
+2018-11-21T21:14:19.862Z - debug: GET /css/main.css
+2018-11-21T21:14:38.218Z - debug: GET /customer/edit/1
+2018-11-21T21:14:38.221Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:14:38.224Z - info: RETURNING VIEW FOR{"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:14:38.259Z - debug: GET /css/main.css
+2018-11-21T21:21:29.015Z - debug: GET /customer
+2018-11-21T21:21:29.054Z - debug: GET /css/main.css
+2018-11-21T21:21:29.135Z - debug: GET /images/favicon-32x32.png
+2018-11-21T21:21:31.325Z - debug: GET /customer/edit/1
+2018-11-21T21:21:31.328Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:21:31.331Z - info: RETURNING VIEW FOR{"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:21:31.416Z - debug: GET /css/main.css
+2018-11-21T21:21:40.629Z - debug: POST /customer/save/1
+2018-11-21T21:21:40.636Z - info: Handling SAVE request [object Object]
+2018-11-21T21:21:40.638Z - info: Handling SAVING ID=1
+2018-11-21T21:21:40.642Z - info: ORIGINAL VALUES {"_id":1,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:21:40.643Z - info: UPDATED VALUES: {"customerFirstname":"Abhinay","customerMiddlename":"Reddy","customerLastname":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:21:40.644Z - info: SAVING UPDATED customer {"_id":1,"customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:21:40.739Z - debug: GET /customer
+2018-11-21T21:21:40.794Z - debug: GET /css/main.css
+2018-11-21T21:22:35.242Z - debug: GET /customer
+2018-11-21T21:22:35.317Z - debug: GET /css/main.css
+2018-11-21T21:22:35.393Z - debug: GET /images/favicon-32x32.png
+2018-11-21T21:22:36.760Z - debug: GET /customer/edit/1
+2018-11-21T21:22:36.764Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:22:36.765Z - info: RETURNING VIEW FOR{"_id":1,"customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:36.796Z - debug: GET /css/main.css
+2018-11-21T21:22:41.359Z - debug: POST /customer/save/1
+2018-11-21T21:22:41.360Z - info: Handling SAVE request [object Object]
+2018-11-21T21:22:41.361Z - info: Handling SAVING ID=1
+2018-11-21T21:22:41.362Z - info: ORIGINAL VALUES {"_id":1,"customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:41.364Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:41.365Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:41.370Z - debug: GET /customer
+2018-11-21T21:22:41.401Z - debug: GET /css/main.css
+2018-11-21T21:22:44.915Z - debug: GET /customer/edit/1
+2018-11-21T21:22:44.916Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:22:44.917Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:22:44.960Z - debug: GET /css/main.css
+2018-11-21T21:23:33.320Z - debug: GET /customer/edit/1
+2018-11-21T21:23:33.323Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:23:33.325Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:33.389Z - debug: GET /css/main.css
+2018-11-21T21:23:33.445Z - debug: GET /images/favicon-32x32.png
+2018-11-21T21:23:42.677Z - debug: POST /customer/save/1
+2018-11-21T21:23:42.679Z - info: Handling SAVE request [object Object]
+2018-11-21T21:23:42.680Z - info: Handling SAVING ID=1
+2018-11-21T21:23:42.680Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:42.680Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:42.681Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:42.684Z - debug: GET /customer
+2018-11-21T21:23:42.717Z - debug: GET /css/main.css
+2018-11-21T21:23:44.935Z - debug: GET /customer/details/1
+2018-11-21T21:23:44.936Z - info: Handling GET /details/:id [object Object]
+2018-11-21T21:23:44.938Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:44.972Z - debug: GET /css/main.css
+2018-11-21T21:23:47.480Z - debug: GET /css/main.css
+2018-11-21T21:23:48.491Z - debug: GET /customer/edit/1
+2018-11-21T21:23:48.495Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:23:48.497Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:48.552Z - debug: GET /css/main.css
+2018-11-21T21:23:52.734Z - debug: POST /customer/save/1
+2018-11-21T21:23:52.737Z - info: Handling SAVE request [object Object]
+2018-11-21T21:23:52.737Z - info: Handling SAVING ID=1
+2018-11-21T21:23:52.738Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:52.739Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaith","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:52.740Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaith","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:52.746Z - debug: GET /customer
+2018-11-21T21:23:52.780Z - debug: GET /css/main.css
+2018-11-21T21:23:57.308Z - debug: GET /customer/delete/1
+2018-11-21T21:23:57.312Z - info: Handling GET /delete [object Object]
+2018-11-21T21:23:57.314Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaith","customerAge":"12","phoneNumber":"9505268028","street":"2-3-237/a road no:2, Adarsh nagar Nagole","city":"Hyderabad","state":"Telangana","country":"India"}
+2018-11-21T21:23:57.384Z - debug: GET /css/main.css
+2018-11-21T21:23:58.831Z - debug: POST /customer/delete/1
+2018-11-21T21:23:58.833Z - info: Handling DELETE request [object Object]
+2018-11-21T21:23:58.834Z - info: Handling REMOVING ID=1
+2018-11-21T21:23:58.839Z - debug: GET /customer
+2018-11-21T21:23:58.882Z - debug: GET /css/main.css
+2018-11-21T21:24:32.526Z - debug: GET /product
+2018-11-21T21:24:32.567Z - debug: GET /css/main.css
+2018-11-21T21:32:39.391Z - info: Environment variables loaded.
+2018-11-21T21:32:39.402Z - debug: Routing Started
+2018-11-21T21:32:39.438Z - debug: Routing end.
+2018-11-21T21:32:39.438Z - info: Loaded routing.
+2018-11-21T21:32:39.477Z - info: START seeder.
+2018-11-21T21:32:39.482Z - debug: 6 products seeded
+2018-11-21T21:32:39.483Z - debug: 5 orders seeded
+2018-11-21T21:32:39.484Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:32:39.486Z - debug: 4 orderline seeded
+2018-11-21T21:32:39.486Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:32:39.490Z - debug: 4 customers seeded
+2018-11-21T21:32:39.490Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:32:45.117Z - debug: GET /
+2018-11-21T21:32:45.126Z - debug: Request to /
+2018-11-21T21:32:45.337Z - debug: GET /css/main.css
+2018-11-21T21:32:54.177Z - debug: GET /customer
+2018-11-21T21:32:54.268Z - debug: GET /css/main.css
+2018-11-21T21:33:08.824Z - debug: GET /customer/create
+2018-11-21T21:33:08.825Z - info: Handling GET /create[object Object]
+2018-11-21T21:33:08.832Z - debug: {"customerFirstName":"FirstName","customerMiddleName":"MiddleName","customerLastName":"LastName","customerAge":22,"phoneNumber":9999999999,"Street":"String","city":"City","state":"State","country":"Country"}
+2018-11-21T21:33:08.868Z - debug: GET /css/main.css
+2018-11-21T21:33:43.948Z - debug: POST /customer/save
+2018-11-21T21:33:44.036Z - info: Handling POST [object Object]
+2018-11-21T21:33:44.038Z - debug: {"_id":"5","customerFirstName":"sampath","customerMiddleName":"MiddleName","customerLastName":"vvrs","customerAge":"23","phoneNumber":"8237682782","street":"bdks.","city":"Kansas","state":"MO","country":"USA"}
+2018-11-21T21:33:44.040Z - info: NEW ID 5
+2018-11-21T21:33:44.048Z - info: SAVING NEW customer {"customerFirstName":"sampath","customerMiddleName":"MiddleName","customerLastName":"vvrs","customerAge":23,"phoneNumber":8237682782,"Street":"String","city":"Kansas","state":"MO","country":"USA","_id":5}
+2018-11-21T21:33:44.056Z - debug: GET /customer
+2018-11-21T21:33:44.109Z - debug: GET /css/main.css
+2018-11-21T21:35:09.283Z - debug: GET /customer/edit/1
+2018-11-21T21:35:09.288Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T21:35:09.295Z - info: RETURNING VIEW FOR{"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:09.384Z - debug: GET /css/main.css
+2018-11-21T21:35:19.602Z - debug: POST /customer/save/1
+2018-11-21T21:35:19.605Z - info: Handling SAVE request [object Object]
+2018-11-21T21:35:19.606Z - info: Handling SAVING ID=1
+2018-11-21T21:35:19.608Z - info: ORIGINAL VALUES {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:19.609Z - info: UPDATED VALUES: {"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"21","phoneNumber":"6606606600","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:19.610Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"21","phoneNumber":"6606606600","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-21T21:35:19.617Z - debug: GET /customer
+2018-11-21T21:35:19.691Z - debug: GET /css/main.css

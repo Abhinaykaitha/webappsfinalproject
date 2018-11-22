@@ -1,3 +1,13 @@
+/** 
+*  Customer model
+*  Customer schema to store all customer related details.
+*
+*  @author Abhinay Kaitha<s534051@nwmissouri.edu>
+*
+*/
+
+// bring in mongoose 
+// see <https://mongoosejs.com/> for more information
 const mongoose = require('mongoose')
 const CustomerSchema = new mongoose.Schema({
 _id: { 
