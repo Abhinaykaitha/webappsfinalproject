@@ -9,7 +9,7 @@ const Model = require('../models/orderline.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
-const notfoundstring = 'orderLines'
+const notfoundstring = 'orderlines'
 
 api.get('/', (req, res) => {
 	res.render('orderline/index.ejs');

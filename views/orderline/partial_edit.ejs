@@ -1,0 +1,17 @@
+<!--@Author Harish Vavilala-->
+<div class=row>
+    <div class="col col-xs-12">
+      <div class="form-group">
+        <label for="lineNumber">lineNumber</label>
+        <input type="text" class="form-control" id="lineNumber" name="lineNumber" value="<%= orderline.lineNumber %>"required>
+      </div>
+      <div class="form-group">
+        <label for="productName">productName</label>
+        <input type="text" class="form-control" id="productName" name="productName" value="<%= orderline.productName %>" required>
+      </div>
+      <div class="form-group">
+        <label for="quantity">quantity</label>
+        <input onchange="onQuantityChange()" type="number" class="form-control" id="quantity" name="quantity" value="<%= orderline.quantity %>"required>
+      </div>
+    </div>
+  </div>
