@@ -33,7 +33,7 @@ router.get("/customer", function (req, res) {
 router.use('/product', require('../controllers/product.js'))
 
 //  Defer path requests to a order line controller
-router.use('/orderline', require('../controllers/orderline.js'))
+router.use('/orderLine', require('../controllers/orderLine.js'))
 router.use('/order', require('../controllers/order.js'))
 router.use("/customer", require("../controllers/customer.js"));
 

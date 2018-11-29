@@ -2,7 +2,7 @@ const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
 const products = require('../data/products.json')
 const customers = require("../data/customers.json");
-const orderline = require('../data/orderline.json')
+const orderLineItems = require('../data/orderLineItems.json')
 const orders = require('../data/orders.json')
 module.exports = (app) => {
   LOG.info('START seeder.')
@@ -38,13 +38,22 @@ module.exports = (app) => {
   db.customers.insert(customers)
  
   app.locals.customers = db.customers.find(customers)
-  
-  LOG.debug(`${app.locals.customers.query.length} orderline seeded`)
-  LOG.info('END Seeder. Sample data read and verified.')
-  db.orderline= new Datastore()
-  db.orderline.loadDatabase()
-  db.orderline.insert(orderline)
-  app.locals.orderline = db.customers.find(orderline)
   LOG.debug(`${app.locals.customers.query.length} customers seeded`);
+  
+  LOG.info('END Seeder. Sample data read and verified.')
+
+
+
+  db.orderLineItems = new Datastore()
+  db.orderLineItems.loadDatabase()
+
+  // insert the sample data into our data store
+  db.orderLineItems.insert(orderLineItems)
+
+  // initialize app.locals (these objects will be available to our controllers)
+  app.locals.orderLineItems = db.orderLineItems.find(orderLineItems)
+  LOG.debug(`${app.locals.orderLineItems.query.length} orderLineItems seeded`)
+
+  
   LOG.info('END Seeder. Sample data read and verified.')
 }

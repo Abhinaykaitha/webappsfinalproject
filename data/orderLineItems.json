@@ -1,26 +1,30 @@
 [
     {
         "_id": 1,
+        "orderID": 3,
         "lineNumber": 1,
-        "productName": "Watch",
+        "productKey": "Watch",
         "quantity" : 1
     },
     {
         "_id": 2,
+        "orderID": 3,
         "lineNumber": 2,
-        "productName": "Book",
+        "productKey": "Book",
         "quantity" : 3
     },
     {
         "_id": 3,
+        "orderID": 3,
         "lineNumber": 3,
-        "productName": "Pen",
+        "productKey": "Pen",
         "quantity" : 5
     },
     {
         "_id": 4,
+        "orderID": 3,
         "lineNumber": 4,
-        "productName": "Pencil",
+        "productKey": "Pencil",
         "quantity" : 4
     }
 ]

@@ -1,19 +1,20 @@
-<!--@Author Harish Vavilala-->
-<br/>
-<br/>
-<h2>orderline details</h2>
-<br/>
-<br/> 
-ID:
-<%=  orderline._id %>>
-<br /> lineNumber:
-<%=orderline.lineNumber%>
-<br /> productName:
-<%=orderline.productName%>
-<br /> quantity:
-<%=orderline.quantity%>
-        <br/>
-        <br/>
-            <form method="get" action="/orderline">
-              <input type="submit" value="Return to list" class="btn btn-caution" />
-            </form>
+<br />
+<br />
+<h2>Order Line details</h2>
+<br />
+Order ID:
+<%=  orderLineItem._id %>
+<br> Order ID
+<%=orderLineItem.orderID%>
+<br /> Line Number
+<%=orderLineItem.lineNumber%>
+<br /> Product Key
+<%=orderLineItem.productKey%>
+<br /> Quantity
+<%=orderLineItem.quantity%>
+<br />
+<br />
+
+<form method="get" action="/orderLine">
+    <input type="submit" value="Return to list" class="btn btn-caution" />
+</form>
