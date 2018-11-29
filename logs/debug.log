@@ -911,3 +911,26 @@ Error: Cannot find module '../models/customers.js'
 2018-11-29T18:02:33.352Z - info: Handling REMOVING ID=1
 2018-11-29T18:02:33.376Z - debug: GET /customer
 2018-11-29T18:02:33.440Z - debug: GET /css/main.css
+2018-11-29T18:37:07.474Z - info: Environment variables loaded.
+2018-11-29T18:37:07.483Z - debug: Routing Started
+2018-11-29T18:37:07.505Z - debug: Routing end.
+2018-11-29T18:37:07.505Z - info: Loaded routing.
+2018-11-29T18:37:07.540Z - info: START seeder.
+2018-11-29T18:37:07.544Z - debug: 6 products seeded
+2018-11-29T18:37:07.546Z - debug: 5 orders seeded
+2018-11-29T18:37:07.546Z - info: END Seeder. Sample data read and verified.
+2018-11-29T18:37:07.547Z - debug: 4 orderline seeded
+2018-11-29T18:37:07.548Z - info: END Seeder. Sample data read and verified.
+2018-11-29T18:37:07.552Z - debug: 4 customers seeded
+2018-11-29T18:37:07.552Z - info: END Seeder. Sample data read and verified.
+2018-11-29T18:37:12.166Z - debug: GET /
+2018-11-29T18:37:12.189Z - debug: Request to /
+2018-11-29T18:37:13.271Z - debug: GET /css/main.css
+2018-11-29T18:37:17.255Z - debug: GET /product
+2018-11-29T18:37:17.306Z - debug: GET /css/main.css
+2018-11-29T18:37:19.048Z - debug: GET /order
+2018-11-29T18:37:19.079Z - debug: GET /css/main.css
+2018-11-29T18:37:20.505Z - debug: GET /orderLineItem
+2018-11-29T18:37:20.538Z - debug: GET /css/main.css
+2018-11-29T18:37:21.898Z - debug: GET /customer
+2018-11-29T18:37:21.926Z - debug: GET /css/main.css
