@@ -867,3 +867,47 @@ Error: Cannot find module '../models/customers.js'
 2018-11-21T21:35:19.610Z - info: SAVING UPDATED customer {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":"21","phoneNumber":"6606606600","street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
 2018-11-21T21:35:19.617Z - debug: GET /customer
 2018-11-21T21:35:19.691Z - debug: GET /css/main.css
+2018-11-21T21:48:02.341Z - info: Environment variables loaded.
+2018-11-21T21:48:02.351Z - debug: Routing Started
+2018-11-21T21:48:02.379Z - debug: Routing end.
+2018-11-21T21:48:02.379Z - info: Loaded routing.
+2018-11-21T21:48:02.410Z - info: START seeder.
+2018-11-21T21:48:02.423Z - debug: 6 products seeded
+2018-11-21T21:48:02.426Z - debug: 5 orders seeded
+2018-11-21T21:48:02.427Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:48:02.431Z - debug: 4 orderline seeded
+2018-11-21T21:48:02.431Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:48:02.435Z - debug: 4 customers seeded
+2018-11-21T21:48:02.435Z - info: END Seeder. Sample data read and verified.
+2018-11-21T21:48:07.507Z - debug: GET /
+2018-11-21T21:48:07.526Z - debug: Request to /
+2018-11-21T21:48:07.863Z - debug: GET /css/main.css
+2018-11-21T21:48:09.714Z - debug: GET /customer
+2018-11-21T21:48:09.778Z - debug: GET /css/main.css
+2018-11-29T18:02:13.284Z - info: Environment variables loaded.
+2018-11-29T18:02:13.310Z - debug: Routing Started
+2018-11-29T18:02:13.369Z - debug: Routing end.
+2018-11-29T18:02:13.370Z - info: Loaded routing.
+2018-11-29T18:02:13.422Z - info: START seeder.
+2018-11-29T18:02:13.425Z - debug: 6 products seeded
+2018-11-29T18:02:13.427Z - debug: 5 orders seeded
+2018-11-29T18:02:13.427Z - info: END Seeder. Sample data read and verified.
+2018-11-29T18:02:13.429Z - debug: 4 orderline seeded
+2018-11-29T18:02:13.429Z - info: END Seeder. Sample data read and verified.
+2018-11-29T18:02:13.431Z - debug: 4 customers seeded
+2018-11-29T18:02:13.431Z - info: END Seeder. Sample data read and verified.
+2018-11-29T18:02:17.912Z - debug: GET /
+2018-11-29T18:02:17.923Z - debug: Request to /
+2018-11-29T18:02:18.911Z - debug: GET /css/main.css
+2018-11-29T18:02:19.584Z - debug: GET /images/favicon-32x32.png
+2018-11-29T18:02:29.393Z - debug: GET /customer
+2018-11-29T18:02:29.443Z - debug: GET /css/main.css
+2018-11-29T18:02:31.658Z - debug: GET /customer/delete/1
+2018-11-29T18:02:31.662Z - info: Handling GET /delete [object Object]
+2018-11-29T18:02:31.666Z - info: RETURNING VIEW FOR {"_id":1,"customerFirstName":"Abhinay","customerMiddleName":"Reddy","customerLastName":"Kaitha","customerAge":21,"phoneNumber":8888888888,"street":"1121N College Dr Horizons West","city":"Maryville","state":"MO","country":"USA"}
+2018-11-29T18:02:31.701Z - debug: GET /css/main.css
+2018-11-29T18:02:33.264Z - debug: POST /customer/delete/1
+2018-11-29T18:02:33.351Z - info: Handling DELETE request [object Object]
+2018-11-29T18:02:33.352Z - info: Handling REMOVING ID=1
+2018-11-29T18:02:33.376Z - debug: GET /customer
+2018-11-29T18:02:33.440Z - debug: GET /css/main.css
