@@ -1,4 +1,4 @@
-<h1>Index</h1><br/>
+
 <br/>
 <div class="container-fluid">
   <div class=row>
@@ -31,9 +31,9 @@
       <%=order.totalAmount%>
     <br>
     <br>
-    <a href="order/delete/<%= order._id %>" class="btn btn-danger"> Delete </a>
-    <a href="order/details/<%= order._id %>" class="btn btn-info"> Details </a>
-    <a href="order/edit/<%= order._id %>" class="btn btn-warning"> Edit </a>
+    <a href="/order/delete/<%= order._id %>" class="btn btn-danger"> Delete </a>
+    <a href="/order/details/<%= order._id %>" class="btn btn-info"> Details </a>
+    <a href="/order/edit/<%= order._id %>" class="btn btn-warning"> Edit </a>
   </div>
   </div>
     <% } %>

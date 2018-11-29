@@ -35,7 +35,7 @@ router.use('/product', require('../controllers/product.js'))
 
 //  Defer path requests to a order line controller
 //router.use('/orderline', require('../controllers/orderline.js'))
-//router.use('/order', require('../controllers/order.js'))
+router.use('/order', require('../controllers/order.js'))
 router.use("/customer", require("../controllers/customer.js"));
 
 LOG.debug('Routing end.');
