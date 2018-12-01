@@ -11,11 +11,16 @@ const Model = require('../models/orderLineItem.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
-const notfoundstring = 'orderLine'
+const notfoundstring = 'orderline'
 
 // RESPOND WITH JSON DATA  --------------------------------------------
       
 // GET all JSON
+// GET to this controller base URI (the default)
+api.get('/', (req, res) => {
+  res.render('orderLine/index.ejs')
+})
+
 
 api.get('/findall', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
@@ -35,10 +40,6 @@ api.get('/findone/:id', (req, res) => {
 
 // RESPOND WITH VIEWS  --------------------------------------------
 
-// GET to this controller base URI (the default)
-api.get('/', (req, res) => {
-  res.render('orderLine/index.ejs')
-})
 
 // GET create
 api.get('/create', (req, res) => {
