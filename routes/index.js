@@ -29,6 +29,10 @@ router.get("/customer", function (req, res) {
   res.render("customer/index.ejs")
  });
 
+ router.get("/orderLine", function (req, res) {
+
+  res.render("orderLine/index.ejs")
+ });
  
 // Defer path requests to a Product controller
 router.use('/product', require('../controllers/product.js'))
