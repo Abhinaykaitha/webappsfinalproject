@@ -4,6 +4,9 @@
 #Overview
 #Dristi Marasini
 Our app consists of four resources customer, products ,order and orderline. I worked on resource called product. We can create, delete, update and see the details of products.
+#Abhinay Kaitah
+Our app consists of four resources customer, products ,order and orderline. I worked on resource called customers. We can create, delete, update and see the details of customers.
+
 
 #Team
 Group Members:
